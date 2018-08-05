@@ -49,7 +49,7 @@ usermod -aG wireshark $USER
 cp -fR neofetch deluge vis htop terminator sublime-text-3 $HOME/.config
 # Replaces the .bashrc file
 cp -f .bashrc $HOME
-# Replaces the hostts file
+# Replaces the hosts file
 cp -f hosts /etc/hosts
 
 # Cleaning up
