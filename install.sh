@@ -47,8 +47,10 @@ usermod -aG wireshark $USER
 
 # Copies directories into .config directory
 cp -fR neofetch deluge vis htop terminator sublime-text-3 $HOME/.config
-# Replaces hosts and .bashrc file
-cp -f hosts .bashrc $HOME
+# Replaces the .bashrc file
+cp -f .bashrc $HOME
+# Replaces the hostts file
+cp -f hosts /etc/hosts
 
 # Cleaning up
 apt autoremove
