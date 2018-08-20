@@ -1,8 +1,6 @@
 # dotfiles
 
-![Xubuntu dekstop](https://i.imgur.com/h7L4B6n.png)
-
-![Xubuntu desktop](https://i.imgur.com/Zuu4HHt.png)
+![Xubuntu dekstop](https://i.redd.it/5nzc7cvfg3h11.png)
 
 > Note that, at the moment only Ubuntu-based systems are supported!
 
@@ -19,6 +17,7 @@ Then, execute the shell script:
 ### List of packages
 
 - python-pip
+- python3-pip
 - neofetch
 - vlc
 - deluge
