@@ -5,8 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-packages=(python-pip neofetch vlc deluge wget nikto nmap
-	thunar nautilus firefox ranger adapta-gtk-theme
+packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap
+	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
 	adapta-backgrounds papirus-icon-theme openjdk-11-jdk
 	sqlitebrowser terminator htop npm wireshark lolcat
 	virtualbox xfce4-goodies bleachbit timeshift tor)
@@ -29,6 +29,9 @@ done
 # Install vtop via npm
 npm install -g vtop
 
+# Install pywal
+pip install pywal
+
 # Downloading Burp suite commmunity edition
 echo "[ info ] Downloading Burp Suite Community Edition..."
 wget -O /tmp/burpsuite.sh "https://portswigger.net/burp/releases/download?product=community&type=linux"
@@ -46,11 +49,13 @@ snap install sublime-text
 usermod -aG wireshark $USER
 
 # Copies directories into .config directory
-cp -fR neofetch deluge vis htop terminator sublime-text-3 $HOME/.config
+cp -fR neofetch deluge vis htop terminator sublime-text-3 i3 polybar ranger rofi $HOME/.config
 # Replaces the .bashrc file
 cp -f .bashrc $HOME
 # Replaces the hosts file
 cp -f hosts /etc/hosts
+# Replaces .gitconfig
+cp -f .gitconfig $HOME
 
 # Cleaning up
 apt autoremove
