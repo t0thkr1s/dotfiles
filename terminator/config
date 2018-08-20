@@ -21,6 +21,7 @@
   [[default]]
     background_color = "#27383b"
     background_darkness = 0.9
+    cursor_blink = False
     cursor_color = "#aaaaaa"
     foreground_color = "#ffffff"
     icon_bell = False
