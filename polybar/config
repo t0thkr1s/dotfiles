@@ -182,7 +182,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label> <bar>
-label = Brightness %percentage%%
+label = Brightness: %percentage%%
 
 bar-width = 15
 bar-indicator = |
@@ -280,7 +280,7 @@ type = internal/pulseaudio
 
 interval = 5
 format-volume = <label-volume> <bar-volume>
-label-volume = Volume %percentage%%
+label-volume = Volume: %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = Muted
