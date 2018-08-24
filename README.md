@@ -23,6 +23,7 @@ Then, execute the shell script:
 - deluge
 - wget
 - nikto
+- neovim
 - nmap
 - thunar
 - timeshift
