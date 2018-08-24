@@ -7,8 +7,8 @@ fi
 
 packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap
 	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
-	adapta-backgrounds papirus-icon-theme openjdk-11-jdk
-	sqlitebrowser terminator htop npm wireshark lolcat
+	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim
+	sqlitebrowser terminator htop npm wireshark lolcat toilet
 	virtualbox xfce4-goodies bleachbit timeshift tor)
 
 add-apt-repository ppa:tista/adapta
@@ -49,7 +49,7 @@ snap install sublime-text
 usermod -aG wireshark $USER
 
 # Copies directories into .config directory
-cp -fR neofetch deluge vis htop terminator sublime-text-3 i3 polybar ranger rofi $HOME/.config
+cp -fR neofetch deluge vis htop terminator sublime-text-3 i3 polybar nvim ranger rofi $HOME/.config
 # Replaces the .bashrc file
 cp -f .bashrc $HOME
 # Replaces the hosts file
