@@ -25,10 +25,10 @@ primary = ${xrdb:color1:#222}
 secondary = ${xrdb:color2:#222}
 alert = ${xrdb:color3:#222}
 
-[bar/example]
+[bar/top_bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 30
+height = 32
 ;offset-x = 5%
 ;offset-y = 5%
 radius = 8.0
@@ -46,12 +46,11 @@ border-color = #00000000
 padding-left = 0
 padding-right = 2
 
-module-margin-left = 2
-module-margin-right = 2
+module-margin-left = 1
+module-margin-right = 1
 
-font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+# Font
+font-0 = SF Mono:size=10
 
 modules-left = i3
 modules-center = xwindow
@@ -206,8 +205,8 @@ type = internal/cpu
 interval = 2
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = Processor: %percentage:2%%
+;format-underline = #f90000
+label = Processor: %percentage%%
 
 [module/memory]
 type = internal/memory
@@ -215,7 +214,7 @@ interval = 2
 format = <label>
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+;format-underline = #4bffdc
 label = Memory: %percentage_used%%
 
 ; Only applies if <bar-used> is used
@@ -235,7 +234,7 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected = <label-connected>
-format-connected-underline = #9f78e1
+;format-connected-underline = #9f78e1
 label-connected = %essid% IP: %local_ip%
 
 format-disconnected =
@@ -262,7 +261,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 
 date = 
 date-alt = "%Y. %m. %d.  |  "
@@ -272,7 +271,7 @@ time-alt = %H : %M : %S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+;format-underline = #0a6cf5
 
 label = %date% %time%
 
@@ -351,7 +350,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <label>
-format-underline = #f50a4d
+;format-underline = #f50a4d
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
@@ -359,9 +358,9 @@ label = Temperature: %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
