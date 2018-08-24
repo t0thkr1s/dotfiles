@@ -13,7 +13,8 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+# font pango:monospace 8
+font pango:SF Mono 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -28,6 +29,9 @@ font pango:monospace 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# Lock the screen
+bindsym $mod+Escape exec i3lock-fancy
 
 # start a terminal
 bindsym $mod+Return exec terminator
@@ -199,7 +203,7 @@ gaps inner 10
 gaps outer 10
 
 # Compositor
-exec compton --inactive-opacity 0.8 --active-opacity 0.9
+exec compton --inactive-opacity 0.8 --active-opacity 0.9 --inactive-dim 0.2
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
