@@ -9,7 +9,7 @@ packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap i3
 	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
 	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim fortune
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
-	virtualbox xfce4-goodies bleachbit timeshift tor tlp preload)
+	virtualbox bleachbit timeshift tor tlp preload)
 
 add-apt-repository ppa:tista/adapta
 add-apt-repository ppa:papirus/papirus
@@ -27,12 +27,14 @@ do
 done
 
 # Install pywal
-pip install pywal
+pip3 install pywal
 
 # Downloading and installing gotop
+echo "[ info ] Downloading gotop..."
 git clone --depth 1 https://github.com/cjbassi/gotop /tmp/gotop
 /tmp/gotop/scripts/download.sh
 cp gotop /usr/bin/
+echo "[ done ] gotop is ready to use!"
 
 # Downloading Burp suite commmunity edition
 echo "[ info ] Downloading Burp Suite Community Edition..."
