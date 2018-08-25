@@ -42,4 +42,7 @@ Then, execute the shell script:
 - lolcat
 - virtualbox
 - xfce4-goodies
+- tlp
+- toilet
+- preload
 - bleachbit
