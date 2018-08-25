@@ -79,7 +79,7 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-label-mode-padding = 5
+label-mode-padding = 2
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
@@ -87,6 +87,8 @@ label-focused = %index%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.alert}
 label-focused-padding = 2
+
+label-unfocused-padding = 2
 
 label-occupied = %index%
 label-occupied-padding = 2
