@@ -10,7 +10,7 @@
 
 ## Installation
 
-Please, check the [wiki](wiki/Installation) page!
+Please, check the [wiki](https://github.com/t0thkr1s/dotfiles/wiki/Installation) page!
 
  - Window Manager : [i3-gaps](https://github.com/Airblader/i3)
  - Editor : [neovim](https://neovim.io/)
