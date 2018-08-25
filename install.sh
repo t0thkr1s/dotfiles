@@ -7,8 +7,8 @@ fi
 
 packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap
 	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
-	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim
-	sqlitebrowser terminator htop npm wireshark lolcat toilet
+	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim fortune
+	sqlitebrowser terminator htop npm wireshark lolcat toilet cowsay
 	virtualbox xfce4-goodies bleachbit timeshift tor tlp preload)
 
 add-apt-repository ppa:tista/adapta
