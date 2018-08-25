@@ -5,10 +5,10 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap
+packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap i3
 	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
 	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim fortune
-	sqlitebrowser terminator htop npm wireshark lolcat toilet cowsay
+	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
 	virtualbox xfce4-goodies bleachbit timeshift tor tlp preload)
 
 add-apt-repository ppa:tista/adapta
@@ -26,11 +26,13 @@ do
 	echo "[ done ] $package installed!"
 done
 
-# Install vtop via npm
-npm install -g vtop
-
 # Install pywal
 pip install pywal
+
+# Downloading and installing gotop
+git clone --depth 1 https://github.com/cjbassi/gotop /tmp/gotop
+/tmp/gotop/scripts/download.sh
+cp gotop /usr/bin/
 
 # Downloading Burp suite commmunity edition
 echo "[ info ] Downloading Burp Suite Community Edition..."
@@ -38,7 +40,7 @@ wget -O /tmp/burpsuite.sh "https://portswigger.net/burp/releases/download?produc
 echo "[ done ]Burp Suite downloaded!"
 
 # Start Burp Suite installer
-sh /tmp/burpsuite.sh  
+/tmp/burpsuite.sh
 
 # Install Spotify, Discord, Sublime Text via Snap
 snap install spotify
@@ -61,5 +63,7 @@ cp -f hosts /etc/hosts
 cp -f .gitconfig $HOME
 
 # Cleaning up
+trash /tmp/gotop
+trash /tmp/burpsuite.sh
 apt autoremove
 apt autoclean
