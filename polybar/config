@@ -26,40 +26,33 @@ secondary = ${xrdb:color2:#222}
 alert = ${xrdb:color3:#222}
 
 [bar/top_bar]
-;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 32
-radius = 0
+radius = 12
 fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-border-size = 3
-border-color = ${colors.primary}
+border-size = 8
+border-color = #00000000
 
-line-size = 5
-line-color = ${colors.secondary}
+underline-size = 4
+underline-color = ${colors.secondary}
 
 padding-left = 0
-padding-right = 5
+padding-right = 2
 
-module-margin-left = 5
-module-margin-right = 5
+module-margin-left = 4
+module-margin-right = 4
 
-# Font
 font-0 = FontAwesome:size=12;0
 font-1 = "SF Mono:size=12"
 font-2 = "Material:size=10;1"
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight pulseaudio memory cpu temperature wlan battery date powermenu
-
-tray-position = right
-tray-padding = 
-;tray-transparent = true
-;tray-background = #0063ff
+modules-right = xbacklight pulseaudio memory cpu temperature filesystem wlan battery date powermenu
 
 wm-restack = i3
 
@@ -76,34 +69,9 @@ label = %title:0:70:...%
 [module/filesystem]
 type = internal/fs
 interval = 25
-
 mount-0 = /
-
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
-
-[module/bspwm]
-type = internal/bspwm
-
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
-label-focused-padding = 2
-
-label-occupied = %index%
-label-occupied-padding = 2
-
-label-urgent = %index%!
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
-
-label-empty = %index%
-label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
-
-; Separator in between workspaces
-; label-separator = |
+label-mounted =   %percentage_used%%
+label-mounted-underline = ${colors.primary}
 
 [module/i3]
 type = internal/i3
@@ -111,39 +79,32 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
-
 label-mode-padding = 5
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
-; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
-label-focused-padding = ${module/bspwm.label-focused-padding}
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.alert}
+label-focused-padding = 2
 
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+label-occupied = %index%
+label-occupied-padding = 2
 
-; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
-; urgent = Workspace with urgency hint set
-label-urgent = %index%
-label-urgent-background = ${module/bspwm.label-urgent-background}
-label-urgent-padding = ${module/bspwm.label-urgent-padding}
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
 
 [module/xbacklight]
 type = internal/xbacklight
-
 format = <label>
 label =   %percentage%%
+format-underline = ${colors.primary}
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -154,12 +115,13 @@ card = intel_backlight
 type = internal/cpu
 interval = 2
 label =   %percentage%%
+format-underline = ${colors.primary}
 
 [module/memory]
 type = internal/memory
 interval = 2
-format = <label>
 label =   %percentage_used%%
+format-underline = ${colors.primary}
 
 [module/wlan]
 type = internal/network
@@ -168,14 +130,11 @@ interval = 5
 
 format-connected = <label-connected>
 label-connected =   %essid% %local_ip%
+format-connected-underline = ${colors.primary}
 
 format-disconnected = <label-disconnected>
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
-
-
+label-disconnected = %ifname% Disconnected
+format-disconnected-underline = ${colors.alert}
 
 [module/date]
 type = internal/date
@@ -188,15 +147,17 @@ time =   %H : %M : %S
 time-alt =   %H : %M : %S
 
 label = %date% %time%
+format-underline = ${colors.primary}
 
 [module/pulseaudio]
 type = internal/pulseaudio
-
 interval = 5
-format-volume = <label-volume>
-label-volume =   %percentage%%
 
+label-volume =   %percentage%%
+format-volume-underline = ${colors.primary}
 label-muted =  Muted
+format-muted-underline = ${colors.alert}
+
 
 [module/battery]
 type = internal/battery
@@ -205,8 +166,11 @@ adapter = ACAD
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
+format-charging-underline = ${colors.primary}
 format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = ${colors.alert}
 format-full = <ramp-capacity> <label-full>
+format-full-underline = ${colors.primary}
 
 ramp-capacity-0 = 
 ramp-capacity-0-foreground = #f53c3c
@@ -216,35 +180,12 @@ ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
 
-bar-capacity-width = 10
-bar-capacity-format = %{+u}%{+o}%fill%%empty%%{-u}%{-o}
-bar-capacity-fill = █
-bar-capacity-fill-foreground = #ddffffff
-bar-capacity-fill-font = 3
-bar-capacity-empty = █
-bar-capacity-empty-font = 3
-bar-capacity-empty-foreground = #44ffffff
-
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
 animation-charging-framerate = 750
-
-[module/temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 60
-
-format = <label>
-;format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
-
-label = Temperature: %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
 
 [module/powermenu]
 type = custom/menu
@@ -266,5 +207,3 @@ menu-0-1-exec = poweroff
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
 
-[global/wm]
-margin-bottom = 0
