@@ -1,4 +1,8 @@
-# dotfiles
+```
+█▀▀▄ █▀▀█ ▀▀█▀▀ █▀▀ ▀█▀ █   █▀▀ █▀▀
+█  █ █  █   █   █▀▀  █  █   █▀▀ ▀▀█
+▀▀▀  ▀▀▀▀   ▀   ▀   ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀
+```
 
 ![My desktop](https://i.imgur.com/NQauCpT.png)
 
@@ -6,45 +10,10 @@
 
 ## Installation
 
-First, make the installer script executable, by typing:
+Please, check the [wiki](wiki/Installation) page!
 
-`sudo chmod +x install.sh`
-
-Then, execute the shell script:
-
-`sudo ./install`
-
-### List of packages
-
-- python-pip
-- python3-pip
-- neofetch
-- vlc
-- deluge
-- wget
-- nikto
-- neovim
-- nmap
-- thunar
-- timeshift
-- firefox
-- tor
-- ranger
-- adapta-gtk-theme
-- adapta-backgrounds
-- papirus-icon-theme
-- openjdk-11-jdk
-- sqlitebrowser
-- terminator
-- htop
-- npm
-- wireshark
-- lolcat
-- virtualbox
-- xfce4-goodies
-- tlp
-- toilet
-- fortune
-- cowsay
-- preload
-- bleachbit
+ - Window Manager : [i3-gaps](https://github.com/Airblader/i3)
+ - Editor : [neovim](https://neovim.io/)
+ - Font : [SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font)
+ - Bar : [polybar](https://github.com/jaagr/polybar)
+ - Activity Monitor : [gotop](https://github.com/cjbassi/gotop)
