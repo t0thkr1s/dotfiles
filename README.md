@@ -1,8 +1,8 @@
 # dotfiles
 
-![Xubuntu dekstop](https://i.redd.it/5nzc7cvfg3h11.png)
+![My desktop](https://i.imgur.com/NQauCpT.png)
 
-> Note that, at the moment only Ubuntu-based systems are supported!
+> Note that, the installer only supports Ubuntu-based systems!
 
 ## Installation
 
@@ -44,5 +44,7 @@ Then, execute the shell script:
 - xfce4-goodies
 - tlp
 - toilet
+- fortune
+- cowsay
 - preload
 - bleachbit
