@@ -42,6 +42,7 @@ wget -O /tmp/burpsuite.sh "https://portswigger.net/burp/releases/download?produc
 echo "[ done ]Burp Suite downloaded!"
 
 # Start Burp Suite installer
+chmod +x /tmp/burpsuite.sh
 /tmp/burpsuite.sh
 
 # Install Spotify, Discord, Sublime Text via Snap
