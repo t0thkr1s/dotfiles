@@ -58,6 +58,7 @@ tlp start
 
 # Copies directories into .config directory
 cp -fR neofetch deluge vis htop terminator sublime-text-3 i3 polybar nvim ranger rofi $HOME/.config
+cp compton.conf $HOME/.config
 # Replaces the .bashrc file
 cp -f .bashrc $HOME
 # Replaces the hosts file
