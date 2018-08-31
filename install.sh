@@ -6,17 +6,22 @@ if [ "$EUID" -ne 0 ]
 fi
 
 packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap i3
-	thunar nautilus firefox ranger adapta-gtk-theme lxappearance
+	thunar firefox ranger adapta-gtk-theme lxappearance compton
 	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim fortune
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
-	virtualbox bleachbit timeshift tor tlp preload)
+	virtualbox bleachbit timeshift tor tlp preload autoconf)
+
+polybar_dependencies=(cmake cmake-data pkg-config libcairo2-dev libxcb1-dev
+	libxcb-util0-dev libxcb-randr0-dev python-xcbgen xcb-proto libxcb-image0-dev
+	libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev
+	libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev
+	libcurl4-openssl-dev libcurlpp-dev libiw-dev libnl-3-dev)
 
 add-apt-repository ppa:tista/adapta
 add-apt-repository ppa:papirus/papirus
 
-apt update -y &>/dev/null
-apt full-upgrade -y &>/dev/null
-
+# Update and upgrade
+apt update && apt full-upgrade -y
 
 # Installing packages
 for package in "${packages[@]}"
@@ -25,6 +30,28 @@ do
 	apt install $package -y &>/dev/null
 	echo "[ done ] $package installed!"
 done
+
+# Downloading and installing i3-gaps
+git clone https://www.github.com/Airblader/i3 /tmp/i3-gaps
+cd /tmp/i3-gaps
+autoreconf --force --install
+rm -rf  build/
+mkdir -p build && cd build/
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+make install
+
+# Installing polybar dependencies
+echo "[ info ] Installing polybar dependencies..."
+for dependency in "${polybar_dependencies[@]}"
+do
+	apt install $dependency -y &>/dev/null
+done
+echo "[ done ] Dependency installation for polybar finished!"
+
+# Downloading and building polybar
+git clone https://github.com/jaagr/polybar /tmp/polybar
+/tmp/polybar/build.sh
 
 # Install pywal
 pip3 install pywal
@@ -45,10 +72,11 @@ echo "[ done ]Burp Suite downloaded!"
 chmod +x /tmp/burpsuite.sh
 /tmp/burpsuite.sh
 
-# Install Spotify, Discord, Sublime Text via Snap
+# Install Spotify, Discord, Sublime Text, Postman via Snap
 snap install spotify
 snap install discord
 snap install sublime-text
+snap install postman
 
 # Adding non-root user to th wireshark group
 usermod -aG wireshark $USER
