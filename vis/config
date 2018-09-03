@@ -33,7 +33,7 @@ visualizer.spectrum.falloff.mode=none
 #visualizer.spectrum.falloff.weight=0.95
 
 # Margins in percent of total screen for spectrum visualizer. All margins default to 0
-visualizer.spectrum.top.margin=0.10
+visualizer.spectrum.top.margin=0.20
 visualizer.spectrum.bottom.margin=0.05
 visualizer.spectrum.right.margin=0.05
 visualizer.spectrum.left.margin=0.05
@@ -45,4 +45,4 @@ visualizer.spectrum.reversed=false
 #colors.override.terminal=false
 
 # Specifies the color scheme. The color scheme must be in ~/.config/vis/colors/ directory. The scheme is "colors".
-colors.scheme=cyan_gradient
+colors.scheme=green_jungle
