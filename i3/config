@@ -194,7 +194,7 @@ exec wal -R
 # Start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 4
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [instance="float"] floating enable
@@ -203,7 +203,7 @@ gaps inner 10
 gaps outer 10
 
 # Compositor
-exec compton --inactive-opacity 0.8 --active-opacity 0.9 --inactive-dim 0.2
+exec_always compton
 
 # Set colors from Xresources
 # Change 'color7' and 'color2' to whatever colors you want i3 to use 
