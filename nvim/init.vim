@@ -2,8 +2,6 @@ set number
 
 call plug#begin('~/.vim/plugged')
 
-" Make sure you use single quotes
-
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
@@ -26,4 +24,21 @@ Plug 'dylanaraps/wal.vim'
 " Initialize plugin system
 call plug#end()
 
+set wildmenu
+
 colorscheme wal
+
+set laststatus=2
+set statusline=
+set statusline+=%2*\ %l
+set statusline+=\ %*
+set statusline+=%1*\ ‹‹
+set statusline+=%1*\ %f\ %*
+set statusline+=%1*\ ››
+set statusline+=%=
+set statusline+=%1*\ %m
+set statusline+=%3*\ %F
+set statusline+=\ %*
+
+hi color guifg=#FFFFFF guibg=#191f26 gui=BOLD
+
