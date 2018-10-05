@@ -1,8 +1,10 @@
 set number
+set nowrap
+set mouse=a
 
 call plug#begin('~/.vim/plugged')
 
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+"i Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 
 " Any valid git URL is allowed
@@ -18,14 +20,35 @@ Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-" Using plug
 Plug 'dylanaraps/wal.vim'
+
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+
+" Enable deoplete at startup
+let g:deoplete#enable_at_startup = 1
+
+" Python language support
+Plug 'zchee/deoplete-jedi'
+
+" C/C++ language support
+Plug 'zchee/deoplete-clang'
+
+" Airline statusline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Initialize plugin system
 call plug#end()
 
 set wildmenu
 
+" Enable pywal colorscheme
 colorscheme wal
 
 set laststatus=2
