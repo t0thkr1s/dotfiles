@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 packages=(python-pip python3-pip neofetch vlc deluge wget nikto nmap i3
-	thunar firefox ranger adapta-gtk-theme lxappearance compton
+	thunar firefox ranger adapta-gtk-theme lxappearance compton arp-scan
 	adapta-backgrounds papirus-icon-theme openjdk-11-jdk neovim fortune
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
 	virtualbox bleachbit timeshift tor tlp preload autoconf)
