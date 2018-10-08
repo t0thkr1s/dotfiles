@@ -39,9 +39,21 @@ Plug 'zchee/deoplete-jedi'
 " C/C++ language support
 Plug 'zchee/deoplete-clang'
 
+" LaTeX support
+Plug 'lervag/vimtex'
+
+" For LaTeX preview
+Plug 'emakman/nvim-latex-previewer'
+
 " Airline statusline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Gitgutter plugin
+Plug 'airblade/vim-gitgutter'
+
+" Wakatime support
+Plug 'wakatime/vim-wakatime'
 
 " Initialize plugin system
 call plug#end()
