@@ -72,6 +72,9 @@ echo "[ done ]Burp Suite downloaded!"
 chmod +x /tmp/burpsuite.sh
 /tmp/burpsuite.sh
 
+# Download, verify and start Metasploit installer
+wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run && wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run.sha1 && echo $(cat metasploit-latest-linux-x64-installer.run.sha1)'  'metasploit-latest-linux-x64-installer.run > metasploit-latest-linux-x64-installer.run.sha1 && shasum -c metasploit-latest-linux-x64-installer.run.sha1 && chmod +x ./metasploit-latest-linux-x64-installer.run && ./metasploit-latest-linux-x64-installer.run
+
 # Install Spotify, Discord, Sublime Text, Postman via Snap
 snap install spotify
 snap install discord
