@@ -1,3 +1,2 @@
-rofi.font: SF Mono 14
+rofi.font: Noto Mono 14
 rofi.width: 600 
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
