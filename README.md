@@ -3,17 +3,15 @@
 █  █ █  █   █   █▀▀  █  █   █▀▀ ▀▀█
 ▀▀▀  ▀▀▀▀   ▀   ▀   ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀
 ```
+![My Desktop](https://i.imgur.com/gfiu0oR.png)
 
-![My desktop](https://i.imgur.com/NQauCpT.png)
-
-> Note that, the installer only supports Ubuntu-based systems!
+> Note: The installer is missing some packages and only supports Ubuntu-based systems!
 
 ## Installation
 
 Please, check the [wiki](https://github.com/t0thkr1s/dotfiles/wiki/Installation) page!
 
- - Window Manager : [i3-gaps](https://github.com/Airblader/i3)
+ - Window Manager : xfwm4
  - Editor : [neovim](https://neovim.io/)
- - Font : [SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font)
- - Bar : [polybar](https://github.com/jaagr/polybar)
+ - Font : Ubuntu Mono 12
  - Activity Monitor : [gotop](https://github.com/cjbassi/gotop)
