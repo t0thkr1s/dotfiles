@@ -7,7 +7,7 @@ fi
 
 packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3
 	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan
-	papirus-icon-theme openjdk-11-jdk neovim fortune
+	papirus-icon-theme openjdk-11-jdk neovim fortune snapd
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
 	bleachbit timeshift tor tlp preload autoconf gdb gparted
 	hashcat zsh trash-cli)
