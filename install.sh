@@ -7,7 +7,7 @@ fi
 
 packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3
 	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan
-	papirus-icon-theme openjdk-11-jdk neovim fortune snapd
+	papirus-icon-theme openjdk-11-jdk neovim fortune snapd feh
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
 	bleachbit timeshift tor tlp preload autoconf gdb gparted
 	hashcat zsh trash-cli)
@@ -61,11 +61,8 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 # Copies directories into .config directory
 cp -fR neofetch deluge vis htop terminator i3 polybar nvim ranger rofi dunst $HOME/.config
 cp compton.conf $HOME/.config
-# Replaces the .bashrc file
 cp -f .bashrc $HOME
-# Replaces the .zshrc file
 cp -f .zshrc $HOME
-# Replaces .gitconfig
 cp -f .gitconfig $HOME
 
 # Cleaning up
