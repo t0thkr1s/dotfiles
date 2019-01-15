@@ -5,6 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
+script_dir="$(dirname "$(realpath $0)")"
+
 packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3
 	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan libxml2-utils inkscape
 	curl default-jdk default-jre neovim fortune snapd feh xxd dirb libglib2.0-dev
@@ -17,7 +19,6 @@ rm -rf /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
 rm -rf ~/.local/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
 rm -rf ~/.themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
 
-# Update and upgrade
 apt update && apt full-upgrade -y
 
 # Installing packages
@@ -29,7 +30,7 @@ do
 done
 
 # Download and install Papirus icon theme
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | DESTDIR="$HOME/.icons" sh
+wget -qO- "https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh" | DESTDIR="$HOME/.icons" sh
 
 # Download specific Adapta theme release
 wget "https://github.com/adapta-project/adapta-gtk-theme/archive/3.95.0.1.zip" -O /tmp/adapta.zip
@@ -37,6 +38,11 @@ wget "https://github.com/adapta-project/adapta-gtk-theme/archive/3.95.0.1.zip" -
 unzip /tmp/adapta.zip -d adapta
 # Change directory and install the theme
 cd /tmp/adapta/adapta-gtk-theme-3.95.0.1/ && ./autogen.sh --prefix=/usr && make && make install
+
+# Install Breeze-Adapta cursor theme
+rm -rf /usr/share/icons/Breeze-Adapta
+mkdir /usr/share/icons/Breeze-Adapta
+cp -R ${script_dir}/cursors/Breeze-Adapta/* /usr/share/icons/Breeze-Adapta
 
 # Downloading and installing gotop
 echo "[ info ] Downloading gotop..."
@@ -51,10 +57,12 @@ wget -O /tmp/burpsuite.sh "https://portswigger.net/burp/releases/download?produc
 echo "[ done ]Burp Suite downloaded!"
 
 # Start Burp Suite installer
+echo "[ info ] Starting installer..."
 chmod +x /tmp/burpsuite.sh
 /tmp/burpsuite.sh
+echo "[ done ] Burp Suite installed!"
 
-# Install Spotify, Discord, Sublime Text, Postman via Snap
+# Install Spotify, Discord, Atom and Postman via Snap
 snap install spotify
 snap install discord
 snap install atom
@@ -78,7 +86,7 @@ cp -f .zshrc $HOME
 cp -f .gitconfig $HOME
 
 # Cleaning up
-trash /tmp/gotop
-trash /tmp/burpsuite.sh
+rm /tmp/gotop /tmp/burpsuite
+rm -rf $0
 apt autoremove
 apt autoclean
