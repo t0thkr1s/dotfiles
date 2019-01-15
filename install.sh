@@ -11,7 +11,7 @@ packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3
 	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan libxml2-utils inkscape
 	curl default-jdk default-jre neovim fortune snapd feh xxd dirb libglib2.0-dev
 	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git libgdk-pixbuf2.0-dev
-	bleachbit timeshift tor tlp preload automake autoconf gdb gparted
+	bleachbit timeshift tor tlp preload automake autoconf gdb gparted openvpn atom
 	hashcat zsh trash-cli binwalk stegosuite parallel sassc pkg-config)
 
 # Delete previous adapta installation
@@ -62,10 +62,13 @@ chmod +x /tmp/burpsuite.sh
 /tmp/burpsuite.sh
 echo "[ done ] Burp Suite installed!"
 
-# Install Spotify, Discord, Atom and Postman via Snap
+# Installing searchsploit
+git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
+sed 's|path_array+=(.*)|path_array+=("/opt/exploitdb")|g' /opt/exploitdb/.searchsploit_rc > ~/.searchsploit_rc
+ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
+
+# Install Spotify and Postman via Snap
 snap install spotify
-snap install discord
-snap install atom
 snap install postman
 
 # Adding non-root user to th wireshark group
