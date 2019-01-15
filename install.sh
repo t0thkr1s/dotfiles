@@ -6,14 +6,16 @@ if [ "$EUID" -ne 0 ]
 fi
 
 packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3
-	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan
-	papirus-icon-theme openjdk-11-jdk neovim fortune snapd feh
-	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git
-	bleachbit timeshift tor tlp preload autoconf gdb gparted
-	hashcat zsh trash-cli)
+	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan libxml2-utils inkscape
+	curl default-jdk default-jre neovim fortune snapd feh xxd dirb libglib2.0-dev
+	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git libgdk-pixbuf2.0-dev
+	bleachbit timeshift tor tlp preload automake autoconf gdb gparted
+	hashcat zsh trash-cli binwalk stegosuite parallel sassc pkg-config)
 
-add-apt-repository ppa:tista/adapta
-add-apt-repository ppa:papirus/papirus
+# Delete previous adapta installation
+rm -rf /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
+rm -rf ~/.local/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
+rm -rf ~/.themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
 
 # Update and upgrade
 apt update && apt full-upgrade -y
@@ -25,6 +27,16 @@ do
 	apt install $package -y &>/dev/null
 	echo "[ done ] $package installed!"
 done
+
+# Download and install Papirus icon theme
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | DESTDIR="$HOME/.icons" sh
+
+# Download specific Adapta theme release
+wget "https://github.com/adapta-project/adapta-gtk-theme/archive/3.95.0.1.zip" -O /tmp/adapta.zip
+# Extract the files
+unzip /tmp/adapta.zip -d adapta
+# Change directory and install the theme
+cd /tmp/adapta/adapta-gtk-theme-3.95.0.1/ && ./autogen.sh --prefix=/usr && make && make install
 
 # Downloading and installing gotop
 echo "[ info ] Downloading gotop..."
@@ -59,7 +71,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Copies directories into .config directory
-cp -fR neofetch deluge vis htop terminator i3 polybar nvim ranger rofi dunst $HOME/.config
+cp -fR neofetch transmission vis htop terminator i3 polybar nvim ranger rofi dunst $HOME/.config
 cp compton.conf $HOME/.config
 cp -f .bashrc $HOME
 cp -f .zshrc $HOME
