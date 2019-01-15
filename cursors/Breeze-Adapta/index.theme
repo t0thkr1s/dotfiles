@@ -1,0 +1,5 @@
+[Icon Theme]
+Name = Breeze-Adapta
+Comment = Multisized X11 Mouse Theme
+Example = default
+Inherits = core
