@@ -10,9 +10,9 @@ script_dir="$(dirname "$(realpath $0)")"
 packages=(python-pip python3-pip neofetch vlc transmision-gtk wget nikto nmap i3 virtualbox-6.0
 	thunar firefox ranger adapta-gtk-theme lxappearance arp-scan libxml2-utils inkscape
 	curl default-jdk default-jre neovim fortune snapd feh xxd dirb libglib2.0-dev virtualbox-ext-pack
-	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git libgdk-pixbuf2.0-dev
-	bleachbit timeshift tor tlp preload automake autoconf gdb gparted openvpn atom
-	hashcat zsh trash-cli binwalk stegosuite parallel sassc pkg-config)
+	sqlitebrowser terminator htop wireshark lolcat toilet cowsay git libgdk-pixbuf2.0-dev apktool
+	bleachbit timeshift tor tlp preload automake autoconf gdb gparted openvpn atom adb wifite
+	hashcat zsh trash-cli binwalk stegosuite parallel sassc pkg-config sqlmap)
 
 # Delete previous adapta installation
 rm -rf /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
