@@ -85,6 +85,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 cp -fR neofetch transmission vis vlc htop terminator i3 polybar nvim ranger rofi dunst $HOME/.config
 cp compton.conf $HOME/.config
 cp -f .bashrc $HOME
+cp -f .tmux.conf $HOME
 cp -f .zshrc $HOME
 cp -f .gitconfig $HOME
 
