@@ -1,47 +1,24 @@
-set number
-set nowrap
-set mouse=a
-
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/vim-easy-align'
-
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-
-Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
-
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
-" Enable deoplete at startup
-let g:deoplete#enable_at_startup = 1
-
-" Python language support
-Plug 'zchee/deoplete-jedi'
-
-" Airline statusline
+" plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-" Gitgutter plugin
+Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
-
-" Wakatime support
 Plug 'wakatime/vim-wakatime'
-
-" Initialize plugin system
 call plug#end()
 
-set wildmenu
+""" enable syntax
+syntax on
 
-set laststatus=2
-set statusline=
-set statusline+=%2*\ %l
-set statusline+=\ %*
-set statusline+=%1*\ ‹‹
-set statusline+=%1*\ %f\ %*
-set statusline+=%1*\ ››
-set statusline+=%=
-set statusline+=%1*\ %m
-set statusline+=%3*\ %F
-set statusline+=\ %*
+""" other configs
+filetype plugin indent on
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab smarttab autoindent
+set incsearch ignorecase smartcase hlsearch
+set encoding=utf-8
+set title
+set wildmenu
+set number
+set mouse=a
+set nowrap
+
