@@ -138,7 +138,7 @@ bar {
 	font pango:Office Code Pro, Icons 10
 }
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 4
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [instance="float"] floating enable
@@ -146,4 +146,13 @@ for_window [instance="float"] floating enable
 # set gaps
 gaps inner 10
 gaps outer 10
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #b58900 #b58900 #ffffff #b58900   #b58900
+client.focused_inactive #000000 #000000 #ffffff #000000   #202020
+client.unfocused        #000000 #000000 #202020 #202020   #202020
+client.urgent           #000000 #000000 #ffffff #000000   #000000
+client.placeholder      #000000 #000000 #ffffff #000000   #000000
+
+client.background       #ffffff
 
