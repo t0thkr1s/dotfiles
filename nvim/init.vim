@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vimrc')
 
 " plugins
 Plug 'vim-airline/vim-airline'
@@ -6,6 +6,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'wakatime/vim-wakatime'
+
 call plug#end()
 
 """ enable syntax
