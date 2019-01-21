@@ -12,7 +12,7 @@ update_system(){
 }
 
 install_packages(){
-    apt install -y python-pip python3-pip neofetch vlc transmission-gtk wget curl \
+    apt install -y python-pip python3-pip vlc transmission-gtk wget curl \
         nikto nmap thunar firefox ranger lxappearance arp-scan netdiscover default-jdk default-jre \
         neovim fortune lolcat snapd feh xxd dirb sqlitebrowser terminator htop wireshark lolcat \
         toilet cowsay git apktool bleachbit tor gdb gparted openvpn adb wifite hashcat zsh trash-cli \
@@ -66,7 +66,7 @@ install_i3gaps(){
     ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
     make
     make install
-    cd ${source_dir}
+    cd ${script_dir}
 }
 
 install_polybar(){
@@ -77,13 +77,20 @@ install_polybar(){
     cmake ..
     make -j$(nproc)
     make install
-    cd ${source_dir}
+    cd ${script_dir}
 }
 
 install_breeze_cursor_theme(){
     rm -rf /usr/share/icons/Breeze-Adapta
     mkdir /usr/share/icons/Breeze-Adapta
     cp -R cursors/Breeze-Adapta/* /usr/share/icons/Breeze-Adapta
+}
+
+install_neofetch(){
+    git clone https://github.com/dylanaraps/neofetch /tmp/neofetch
+    cd /tmp/neofetch
+    make install
+    cd ${script_dir}
 }
 
 install_gotop(){
@@ -158,6 +165,7 @@ main(){
     install_breeze_cursor_theme
     install_i3gaps
     install_polybar
+    install_neofetch
     install_gotop
     install_burpsuite
     install_searchsploit
