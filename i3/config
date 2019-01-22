@@ -1,6 +1,9 @@
 # set background
 exec --no-startup-id feh --bg-scale ~/Pictures/sudo.png
 
+# set dunst as notification daemon
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
+
 set $mod Mod4
 
 # set font
@@ -148,7 +151,7 @@ gaps inner 10
 gaps outer 10
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #b58900 #b58900 #ffffff #b58900   #b58900
+client.focused          #ffaf00 #ffaf00 #ffffff #ffaf00   #ffaf00
 client.focused_inactive #000000 #000000 #ffffff #000000   #202020
 client.unfocused        #000000 #000000 #202020 #202020   #202020
 client.urgent           #000000 #000000 #ffffff #000000   #000000
