@@ -16,7 +16,7 @@ install_packages(){
         nikto nmap thunar firefox ranger lxappearance arp-scan netdiscover default-jdk default-jre \
         neovim fortune lolcat snapd feh xxd dirb sqlitebrowser terminator htop wireshark lolcat \
         toilet cowsay git apktool bleachbit tor gdb gparted openvpn adb wifite hashcat zsh trash-cli \
-        binwalk stegosuite sqlmap tmux
+        binwalk stegosuite sqlmap tmux rxvt-unicode rxvt-unicode-256color
 }
 
 install_adapta_dependencies(){
@@ -135,7 +135,7 @@ install_plug(){
 
 copy_configs(){
     cp -fR neofetch transmission vis vlc htop terminator i3 polybar nvim ranger rofi dunst ~/.config
-    cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig} $HOME
+    cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults} $HOME
     cp -fR wallpapers ~/Pictures
     cp -fR fonts /usr/share/fonts/truetype
 }
