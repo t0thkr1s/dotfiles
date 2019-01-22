@@ -1,0 +1,8 @@
+# URXVT terminal
+URxvt.internalBorder:  20
+URxvt.font: xft:Office Code Pro:size=12
+URxvt.scrollBar: false
+URxvt.skipScroll: true
+URxvt.background:  black
+URxvt.foreground: white
+
