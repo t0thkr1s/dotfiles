@@ -16,7 +16,7 @@ floating_modifier $mod
 bindsym $mod+Escape exec i3lock-fancy
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
