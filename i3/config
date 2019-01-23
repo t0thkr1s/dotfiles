@@ -4,6 +4,12 @@ exec --no-startup-id feh --bg-scale ~/Pictures/sudo.png
 # set dunst as notification daemon
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
+# launch compton 
+exec_always compton -f --config ~/.config/compton/configi
+
+# start polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 set $mod Mod4
 
 # set font
@@ -101,9 +107,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-
-bindsym --release Print exec --no-startup-id scrot
-bindsym --release Shift+Print exec --no-startup-id scrot -s
+# default screenshooter
+bindsym --release Print exec --no-startup-id xfce4-screenshooter
 
 set $sink `pactl list short sinks | grep RUNNING | cut -f1`
 
@@ -135,11 +140,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bar {
-    status_command i3status --config ~/.config/i3/i3status.conf
-    position bottom
-	font pango:Office Code Pro, Icons 10
-}
+#bar {
+#    status_command i3status --config ~/.config/i3/i3status.conf
+#    position bottom
+#	font pango:Office Code Pro, Icons 10
+#}
 
 for_window [class="^.*"] border pixel 4
 for_window [window_role="pop-up"] floating enable
@@ -152,8 +157,8 @@ gaps outer 10
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #ffaf00 #ffaf00 #ffffff #ffaf00   #ffaf00
-client.focused_inactive #000000 #000000 #ffffff #000000   #202020
-client.unfocused        #000000 #000000 #202020 #202020   #202020
+client.focused_inactive #000000 #000000 #ffffff #000000   #000000
+client.unfocused        #000000 #000000 #000000 #000000   #000000
 client.urgent           #000000 #000000 #ffffff #000000   #000000
 client.placeholder      #000000 #000000 #ffffff #000000   #000000
 
