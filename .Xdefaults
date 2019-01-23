@@ -5,4 +5,7 @@ URxvt.scrollBar: false
 URxvt.skipScroll: true
 URxvt.background:  black
 URxvt.foreground: white
-
+URxvt.letterSpace: 2
+URxvt.perl-ext-common: eval
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
