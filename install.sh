@@ -133,6 +133,11 @@ install_plug(){
     chown -R $SUDO_USER:$SUDO_USER ~/.local/share/nvim/
 }
 
+install_nerdfonts(){
+    git clone https://github.com/ryanoasis/nerd-fonts /tmp/nerdfonts
+    /tmp/nerdfonts/install.sh
+}
+
 install_pywal(){
     pip3 install pywal
 }
@@ -140,7 +145,7 @@ install_pywal(){
 copy_configs(){
     cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst ~/.config
     cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults} $HOME
-    cp -fR wallpapers ~/Pictures
+    cp -f {wallpapers/green.jpg,wallpapers/sudo.png,wallpapers/lock.jpg} ~/Pictures
     cp -fR fonts /usr/share/fonts/truetype
 }
 
@@ -177,6 +182,7 @@ main(){
     install_atom
     install_snaps
     install_plug
+    install_nerdfonts
     install_pywal
     copy_configs
     add_user_to_wireshark_group
