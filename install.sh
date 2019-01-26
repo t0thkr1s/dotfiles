@@ -133,6 +133,10 @@ install_plug(){
     chown -R $SUDO_USER:$SUDO_USER ~/.local/share/nvim/
 }
 
+install_pywal(){
+    pip3 install pywal
+}
+
 copy_configs(){
     cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst ~/.config
     cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults} $HOME
@@ -173,6 +177,7 @@ main(){
     install_atom
     install_snaps
     install_plug
+    install_pywal
     copy_configs
     add_user_to_wireshark_group
     change_shell
