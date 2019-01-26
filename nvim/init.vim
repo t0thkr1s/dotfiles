@@ -1,4 +1,4 @@
-call plug#begin('~/.vimrc')
+call plug#begin()
 
 " plugins
 Plug 'vim-airline/vim-airline'
@@ -6,11 +6,15 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'wakatime/vim-wakatime'
+Plug 'dylanaraps/wal.vim'
 
 call plug#end()
 
 """ enable syntax
 syntax on
+
+""" enable pywal color scheme
+colorscheme wal
 
 """ other configs
 filetype plugin indent on
