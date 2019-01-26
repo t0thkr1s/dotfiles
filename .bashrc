@@ -119,5 +119,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-(cat ~/.cache/wal/sequences &)
