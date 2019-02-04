@@ -1,9 +1,0 @@
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
-rofi.font: Office Code Pro 16
-rofi.width: 600
-rofi.padding: 10
-rofi.line-margin: 10
-rofi.lines: 10
-rofi.bw: 4
-rofi.hide-scrollbar: true
-rofi.separator-style: none
