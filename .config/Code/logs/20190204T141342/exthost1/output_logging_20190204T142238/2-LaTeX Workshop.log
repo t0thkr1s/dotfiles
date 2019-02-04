@@ -1,0 +1,28 @@
+[14:22:38] Initializing LaTeX Workshop.
+[14:22:38] Creating LaTeX Workshop http and websocket server.
+[14:22:38] LaTeX Workshop initialized.
+[14:22:38] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:22:39] Root file changed from: undefined. Find all dependencies.
+[14:22:39] Instatiating new file watcher for /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:22:39] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:22:39] Server created on 127.0.0.1:45173
+[14:22:39] Snippet data loaded.
+[14:22:39] LaTeX Workshop version: 5.21.0
+[14:25:41] File watcher: responding to change in /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] Auto-build /home/t0thkr1s/Documents/thesis/thesis.tex upon save.
+[14:25:41] BUILD command invoked.
+[14:25:41] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[14:25:41] Building root file: /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] Build root file /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/t0thkr1s/Documents/thesis,/home/t0thkr1s/Documents/thesis/thesis
+[14:25:41] Recipe of length 1 finished.
+[14:25:41] Successfully built /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:41] No PDF viewer connected for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[14:25:53] VIEW command invoked.
+[14:25:53] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:25:53] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[14:25:53] Serving PDF file at http://127.0.0.1:45173/viewer.html?file=/pdf:%25252Fhome%25252Ft0thkr1s%25252FDocuments%25252Fthesis%25252Fthesis.pdf
+[14:25:53] Open PDF tab for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[14:25:54] Preview PDF file: /home/t0thkr1s/Documents/thesis/thesis.pdf

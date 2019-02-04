@@ -1,0 +1,50 @@
+[2019-01-30 13:46:36.073] [renderer1] [info] no standard startup: not the explorer viewlet
+[2019-01-30 13:47:26.530] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 13:48:12.699] [renderer1] [info] no standard startup: not just one text editor
+[2019-01-30 13:48:35.245] [renderer1] [info] Requested uninstalling the extension cmschuetz12.wal from window 1
+[2019-01-30 13:48:35.262] [renderer1] [info] Uninstalling the extension cmschuetz12.wal-0.1.0 from window 1
+[2019-01-30 13:48:51.275] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 13:49:19.814] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 13:49:50.799] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 15:30:21.649] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+	at loadTocConfig (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:173:34)
+	at /home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:61:9
+	at Generator.next (<anonymous>)
+	at __awaiter (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:7:71)
+	at new Promise (<anonymous>)
+	at __awaiter (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:3:12)
+	at generateTocText (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:60:12)
+	at /home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:106:32
+	at Generator.next (<anonymous>)
+	at __awaiter (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:7:71)
+	at new Promise (<anonymous>)
+	at __awaiter (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:3:12)
+	at detectTocRanges (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:104:12)
+	at TocCodeLensProvider.provideCodeLenses (/home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/toc.js:225:16)
+	at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:552:572
+	at t.asThenable (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:141:941)
+	at new Promise (<anonymous>)
+	at Object.t.asThenable (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:141:909)
+	at e.provideCodeLenses (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:552:531)
+	at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:568:953
+	at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:567:513)
+	at e.$provideCodeLenses (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:568:915)
+	at t._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:658:837)
+	at t._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:658:509)
+	at t._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:657:60)
+	at t._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:656:59)
+	at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:653:895
+	at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:130:793
+	at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:133:218)
+	at a (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:186:147)
+	at Socket.n._socketDataListener (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:186:368)
+	at emitOne (events.js:116:13)
+	at Socket.emit (events.js:211:7)
+	at addChunk (_stream_readable.js:263:12)
+	at readableAddChunk (_stream_readable.js:250:11)
+	at Socket.Readable.push (_stream_readable.js:208:10)
+	at Pipe.onread (net.js:594:20)
+[2019-01-30 15:30:21.766] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 15:30:30.896] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 15:33:39.660] [renderer1] [info] no standard startup: not a new window
+[2019-01-30 15:36:32.752] [renderer1] [info] no standard startup: not a new window

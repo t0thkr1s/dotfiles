@@ -1,0 +1,10 @@
+[14:21:57] Initializing LaTeX Workshop.
+[14:21:57] Creating LaTeX Workshop http and websocket server.
+[14:21:57] LaTeX Workshop initialized.
+[14:21:57] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:21:58] Root file changed from: undefined. Find all dependencies.
+[14:21:58] Instatiating new file watcher for /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:21:58] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[14:21:58] Server created on 127.0.0.1:40065
+[14:21:58] Snippet data loaded.
+[14:21:58] LaTeX Workshop version: 5.21.0

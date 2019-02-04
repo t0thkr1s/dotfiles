@@ -1,0 +1,38 @@
+{
+    "telemetry.machineId": "6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e",
+    "theme": "vs-dark",
+    "themeBackground": "#212121",
+    "pickerWorkingDir": "/home/t0thkr1s/Documents",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/t0thkr1s/Documents/dotfiles",
+            "file:///home/t0thkr1s/Documents/thesis",
+            "file:///home/t0thkr1s/Documents/blog"
+        ],
+        "files2": [
+            "file:///home/t0thkr1s/Documents/dotfiles/install.sh",
+            "file:///home/t0thkr1s/Documents/thesis/.gitignore",
+            "file:///home/t0thkr1s/Downloads/LaTeX%20beadand%C3%B3/masodik/document.tex"
+        ]
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/t0thkr1s/Documents/thesis",
+                "external": "file:///home/t0thkr1s/Documents/thesis",
+                "path": "/home/t0thkr1s/Documents/thesis",
+                "scheme": "file"
+            },
+            "backupPath": "/home/t0thkr1s/.config/Code/Backups/43be7bbc4781c1e4114664f5aa3fedd5",
+            "uiState": {
+                "mode": 1,
+                "x": 19,
+                "y": 68,
+                "width": 1882,
+                "height": 993
+            }
+        }
+    }
+}

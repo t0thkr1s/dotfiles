@@ -1,0 +1,48 @@
+[2019-02-04 14:54:54.606] [sharedprocess] [info] main {"machineId":"6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e"}
+[2019-02-04 14:54:54.721] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:54:54.770] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:54:54.905] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:54:54.946] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:54:54.997] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:55:34.612] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-04 14:58:57.148] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:58:57.154] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:58:57.158] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:58:57.160] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:58:57.236] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:58:57.243] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:58:57.254] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:06.659] [sharedprocess] [info] Installing extension: prettier-vscode
+[2019-02-04 14:59:06.680] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:59:09.715] [sharedprocess] [info] Downloaded extension: prettier-vscode /tmp/259fae24-2e5c-4b24-9044-d73ffd8f7e3b
+[2019-02-04 14:59:18.915] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.esbenp.prettier-vscode-1.8.1: esbenp.prettier-vscode-1.8.1
+[2019-02-04 14:59:18.915] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/esbenp.prettier-vscode-1.8.1
+[2019-02-04 14:59:18.921] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode-1.8.1
+[2019-02-04 14:59:18.956] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2019-02-04 14:59:19.094] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:19.106] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:30.859] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:30.870] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:30.873] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:30.880] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:30.886] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 14:59:30.938] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:30.946] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:30.953] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:30.961] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:59:31.857] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 15:00:29.213] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 15:03:07.373] [sharedprocess] [info] Installing extension: shell-format
+[2019-02-04 15:03:07.392] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 15:03:08.080] [sharedprocess] [info] Downloaded extension: shell-format /tmp/409a8370-bd1c-4c74-9c6d-1fbb2022ad4f
+[2019-02-04 15:03:08.193] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.foxundermoon.shell-format-4.0.4: foxundermoon.shell-format-4.0.4
+[2019-02-04 15:03:08.193] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/foxundermoon.shell-format-4.0.4
+[2019-02-04 15:03:08.194] [sharedprocess] [info] Installation completed. foxundermoon.shell-format-4.0.4
+[2019-02-04 15:03:08.202] [sharedprocess] [info] Extensions installed successfully: foxundermoon.shell-format
+[2019-02-04 15:03:08.339] [sharedprocess] [info] Scanned user extensions: 13
+[2019-02-04 15:03:08.353] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 15:03:23.858] [sharedprocess] [info] Scanned user extensions: 13
+[2019-02-04 15:03:23.873] [sharedprocess] [info] Scanned user extensions: 13
+[2019-02-04 15:03:23.971] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 15:03:23.982] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 15:03:24.418] [sharedprocess] [info] Scanned user extensions: 13

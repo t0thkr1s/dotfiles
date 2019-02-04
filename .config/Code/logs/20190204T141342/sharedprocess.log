@@ -1,0 +1,72 @@
+[2019-02-04 14:13:46.321] [sharedprocess] [info] main {"machineId":"6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e"}
+[2019-02-04 14:13:46.445] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:13:46.466] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:13:46.475] [sharedprocess] [info] Deleted from disk gruntfuggly.activitusbar-0.0.16
+[2019-02-04 14:13:46.583] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:13:46.585] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:13:46.588] [sharedprocess] [info] Deleted from disk shan.code-settings-sync-3.2.4
+[2019-02-04 14:13:46.593] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:13:46.643] [sharedprocess] [info] Deleted from disk redhat.java-0.37.0
+[2019-02-04 14:13:46.645] [sharedprocess] [info] Deleted from disk peterjausovec.vscode-docker-0.5.1
+[2019-02-04 14:14:26.329] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-04 14:18:46.617] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:18.393] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:18.416] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:18.431] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:18.450] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:18.531] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:18.535] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:18.548] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:41.953] [sharedprocess] [info] Installing extension: code-runner
+[2019-02-04 14:21:41.978] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 14:21:42.451] [sharedprocess] [info] Downloaded extension: code-runner /tmp/310cfccd-0d58-41af-8f84-5fccf134503e
+[2019-02-04 14:21:43.844] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.formulahendry.code-runner-0.9.7: formulahendry.code-runner-0.9.7
+[2019-02-04 14:21:43.848] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/formulahendry.code-runner-0.9.7
+[2019-02-04 14:21:43.851] [sharedprocess] [info] Installation completed. formulahendry.code-runner-0.9.7
+[2019-02-04 14:21:43.864] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner
+[2019-02-04 14:21:43.996] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:44.033] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:56.356] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:56.369] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:56.382] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:56.404] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:56.406] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:21:56.472] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:56.478] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:56.486] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:56.494] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:21:57.556] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:22:29.173] [sharedprocess] [info] Installing extension: vscode-yaml
+[2019-02-04 14:22:29.190] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 14:22:30.287] [sharedprocess] [info] Downloaded extension: vscode-yaml /tmp/c22e8744-4c4f-4275-a965-fb96a46fd896
+[2019-02-04 14:22:33.320] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.redhat.vscode-yaml-0.2.1: redhat.vscode-yaml-0.2.1
+[2019-02-04 14:22:33.321] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/redhat.vscode-yaml-0.2.1
+[2019-02-04 14:22:33.322] [sharedprocess] [info] Installation completed. redhat.vscode-yaml-0.2.1
+[2019-02-04 14:22:33.336] [sharedprocess] [info] Extensions installed successfully: redhat.vscode-yaml
+[2019-02-04 14:22:33.489] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:33.508] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:22:37.312] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:37.314] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:37.319] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:37.319] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:37.322] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:22:37.401] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:22:37.408] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:22:37.415] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:22:37.421] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:22:38.464] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:08.518] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:08.521] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:08.521] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:08.588] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:23:08.596] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:23:08.602] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:23:53.123] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:53.131] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:53.131] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:23:53.205] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:23:53.214] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:23:53.219] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 14:27:38.525] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:32:38.553] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 14:37:38.581] [sharedprocess] [info] Scanned user extensions: 11

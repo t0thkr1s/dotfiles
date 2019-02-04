@@ -1,0 +1,73 @@
+[2019-01-31 15:32:56.497] [sharedprocess] [info] main {"machineId":"6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e"}
+[2019-01-31 15:32:56.618] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:56.639] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:56.665] [sharedprocess] [info] Deleted from disk cmschuetz12.wal-0.1.0
+[2019-01-31 15:32:56.668] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:32:56.669] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:32:56.702] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:59.632] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:59.651] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:59.658] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:59.666] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:32:59.735] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:32:59.739] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:32:59.744] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:33:36.501] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-01-31 15:33:50.419] [sharedprocess] [info] Installing extension: latex-workshop
+[2019-01-31 15:33:50.442] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-31 15:33:51.852] [sharedprocess] [info] Downloaded extension: latex-workshop /tmp/7c6b5ebd-195b-4080-b328-0660809c24f3
+[2019-01-31 15:33:56.170] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.james-yu.latex-workshop-5.21.0: james-yu.latex-workshop-5.21.0
+[2019-01-31 15:33:56.170] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/james-yu.latex-workshop-5.21.0
+[2019-01-31 15:33:56.175] [sharedprocess] [info] Installation completed. james-yu.latex-workshop-5.21.0
+[2019-01-31 15:33:56.193] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2019-01-31 15:33:56.331] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:33:56.346] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:34:07.089] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:34:07.092] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:34:07.097] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:34:07.097] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:34:07.102] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:34:07.152] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:34:07.156] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:34:07.160] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:34:07.165] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-31 15:34:07.930] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:39:07.962] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:44:07.987] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:49:08.018] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:54:08.045] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 15:59:08.073] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:04:08.102] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:09:08.130] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:14:08.163] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:19:08.189] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:24:08.216] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:29:08.235] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:34:08.355] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:39:08.381] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:44:08.409] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:49:08.435] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:54:08.465] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 16:59:08.492] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:04:08.520] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:09:08.545] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:14:08.572] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:19:08.601] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:24:08.631] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:29:08.657] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:34:08.798] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:39:08.824] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:44:08.852] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:49:08.883] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:54:08.909] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 17:59:08.942] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:04:08.967] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:09:08.996] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:14:09.019] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:19:09.047] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:24:09.076] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:29:09.093] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:34:09.209] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:39:09.234] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:44:09.256] [sharedprocess] [info] Scanned user extensions: 11
+[2019-01-31 18:49:09.284] [sharedprocess] [info] Scanned user extensions: 11

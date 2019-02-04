@@ -1,0 +1,253 @@
+[2019-01-30 13:46:36.556] [sharedprocess] [info] main {"machineId":"6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e"}
+[2019-01-30 13:46:36.592] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:46:36.610] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:46:36.618] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:46:36.649] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:46:36.667] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:46:36.670] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:46:36.673] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:00.458] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:47:00.461] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:47:00.462] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:47:00.472] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:47:00.594] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:00.597] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:00.602] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:11.471] [sharedprocess] [info] Installing extension: wal
+[2019-01-30 13:47:11.473] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:47:11.824] [sharedprocess] [info] Downloaded extension: wal /tmp/21c97604-c41e-4109-a64f-86c34c41a873
+[2019-01-30 13:47:12.131] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.cmschuetz12.wal-0.1.0: cmschuetz12.wal-0.1.0
+[2019-01-30 13:47:12.132] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/cmschuetz12.wal-0.1.0
+[2019-01-30 13:47:12.139] [sharedprocess] [info] Installation completed. cmschuetz12.wal-0.1.0
+[2019-01-30 13:47:12.154] [sharedprocess] [info] Extensions installed successfully: cmschuetz12.wal
+[2019-01-30 13:47:12.264] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:12.285] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:16.560] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-01-30 13:47:26.468] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:26.470] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:26.472] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:26.479] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:26.480] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:47:26.591] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:26.598] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:26.603] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:26.608] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:47:26.661] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:12.268] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:12.269] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:12.357] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:12.365] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:12.712] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:32.297] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:32.302] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:32.302] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:32.308] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:32.381] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:32.384] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:32.391] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:35.262] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:35.262] [sharedprocess] [info] Uninstalling extension: cmschuetz12.wal-0.1.0
+[2019-01-30 13:48:35.263] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:35.268] [sharedprocess] [info] Successfully uninstalled extension: cmschuetz12.wal-0.1.0
+[2019-01-30 13:48:35.641] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:48:35.664] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:44.126] [sharedprocess] [info] Installing extension: material-icon-theme
+[2019-01-30 13:48:44.133] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:48:44.559] [sharedprocess] [info] Downloaded extension: material-icon-theme /tmp/4d3d4dab-c32e-4e0f-99f4-8e98de456bbc
+[2019-01-30 13:48:45.006] [sharedprocess] [info] Installing extension: vsc-material-theme
+[2019-01-30 13:48:45.024] [sharedprocess] [info] Scanned user extensions: 0
+[2019-01-30 13:48:45.615] [sharedprocess] [info] Downloaded extension: vsc-material-theme /tmp/fbfaa229-1660-4c80-818c-348663859c2b
+[2019-01-30 13:48:45.698] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.pkief.material-icon-theme-3.6.2: pkief.material-icon-theme-3.6.2
+[2019-01-30 13:48:45.699] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2
+[2019-01-30 13:48:45.700] [sharedprocess] [info] Installation completed. pkief.material-icon-theme-3.6.2
+[2019-01-30 13:48:45.710] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2019-01-30 13:48:45.836] [sharedprocess] [info] Scanned user extensions: 1
+[2019-01-30 13:48:45.867] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:46.830] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.equinusocio.vsc-material-theme-2.6.3: equinusocio.vsc-material-theme-2.6.3
+[2019-01-30 13:48:46.831] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3
+[2019-01-30 13:48:46.832] [sharedprocess] [info] Installation completed. equinusocio.vsc-material-theme-2.6.3
+[2019-01-30 13:48:46.841] [sharedprocess] [info] Extensions installed successfully: equinusocio.vsc-material-theme
+[2019-01-30 13:48:46.958] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:46.975] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:50.708] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:50.760] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:50.799] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:50.834] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:50.864] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:50.872] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:50.877] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:50.885] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:48:50.891] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:48:51.331] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:49:19.487] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:49:19.514] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:49:19.842] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:49:50.084] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:49:50.109] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 13:49:50.848] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:54:50.870] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 13:59:50.888] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:04:50.906] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:09:50.917] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:14:50.934] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:19:50.956] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:24:50.973] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:29:50.990] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:34:51.007] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:39:51.026] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:44:51.045] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:49:51.167] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:54:51.186] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 14:59:51.205] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:04:51.222] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:09:51.237] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:14:51.248] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:19:51.267] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:24:51.285] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:44.626] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:44.651] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:44.685] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:44.704] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:44.704] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:44.708] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:44.712] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:49.814] [sharedprocess] [info] Installing extension: vscode-wakatime
+[2019-01-30 15:28:49.819] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-30 15:28:50.374] [sharedprocess] [info] Downloaded extension: vscode-wakatime /tmp/d28998db-ab26-4d83-b2b4-7f71ce5b2062
+[2019-01-30 15:28:51.186] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.wakatime.vscode-wakatime-1.2.5: wakatime.vscode-wakatime-1.2.5
+[2019-01-30 15:28:51.186] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5
+[2019-01-30 15:28:51.187] [sharedprocess] [info] Installation completed. wakatime.vscode-wakatime-1.2.5
+[2019-01-30 15:28:51.193] [sharedprocess] [info] Extensions installed successfully: wakatime.vscode-wakatime
+[2019-01-30 15:28:51.311] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-30 15:28:51.328] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:59.074] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-30 15:28:59.103] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-30 15:28:59.137] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-30 15:28:59.154] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:59.160] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:28:59.168] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:29:06.628] [sharedprocess] [info] Installing extension: python
+[2019-01-30 15:29:06.637] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-30 15:29:08.191] [sharedprocess] [info] Downloaded extension: python /tmp/55f6ba42-c527-4649-8143-0779459c59d3
+[2019-01-30 15:29:09.702] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.ms-python.python-2019.1.0: ms-python.python-2019.1.0
+[2019-01-30 15:29:09.702] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/ms-python.python-2019.1.0
+[2019-01-30 15:29:09.707] [sharedprocess] [info] Installation completed. ms-python.python-2019.1.0
+[2019-01-30 15:29:09.720] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-01-30 15:29:09.847] [sharedprocess] [info] Scanned user extensions: 4
+[2019-01-30 15:29:09.865] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:29:37.030] [sharedprocess] [info] Installing extension: markdown-all-in-one
+[2019-01-30 15:29:37.039] [sharedprocess] [info] Scanned user extensions: 4
+[2019-01-30 15:29:37.676] [sharedprocess] [info] Downloaded extension: markdown-all-in-one /tmp/d40921f5-75f8-439a-b31d-85ce2fd758ae
+[2019-01-30 15:29:38.536] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.yzhang.markdown-all-in-one-2.0.1: yzhang.markdown-all-in-one-2.0.1
+[2019-01-30 15:29:38.537] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1
+[2019-01-30 15:29:38.540] [sharedprocess] [info] Installation completed. yzhang.markdown-all-in-one-2.0.1
+[2019-01-30 15:29:38.549] [sharedprocess] [info] Extensions installed successfully: yzhang.markdown-all-in-one
+[2019-01-30 15:29:38.674] [sharedprocess] [info] Scanned user extensions: 5
+[2019-01-30 15:29:38.709] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:29:51.306] [sharedprocess] [info] Scanned user extensions: 5
+[2019-01-30 15:30:11.982] [sharedprocess] [info] Installing extension: vscode-docker
+[2019-01-30 15:30:11.992] [sharedprocess] [info] Scanned user extensions: 5
+[2019-01-30 15:30:12.755] [sharedprocess] [info] Downloaded extension: vscode-docker /tmp/70230713-20c6-4692-b541-696bb527ad8d
+[2019-01-30 15:30:13.388] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.peterjausovec.vscode-docker-0.5.1: peterjausovec.vscode-docker-0.5.1
+[2019-01-30 15:30:13.388] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/peterjausovec.vscode-docker-0.5.1
+[2019-01-30 15:30:13.391] [sharedprocess] [info] Installation completed. peterjausovec.vscode-docker-0.5.1
+[2019-01-30 15:30:13.422] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:13.451] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:13.452] [sharedprocess] [info] Extensions installed successfully: peterjausovec.vscode-docker
+[2019-01-30 15:30:13.580] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:13.592] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:19.729] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:19.760] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:19.783] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:19.823] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:19.827] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:19.831] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:19.835] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:19.839] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:19.843] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:21.797] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:25.116] [sharedprocess] [info] Installing extension: vscode-markdownlint
+[2019-01-30 15:30:25.128] [sharedprocess] [info] Scanned user extensions: 6
+[2019-01-30 15:30:25.423] [sharedprocess] [info] Downloaded extension: vscode-markdownlint /tmp/99b008e2-0339-47b5-a3b0-9aa984fa07c8
+[2019-01-30 15:30:25.777] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.davidanson.vscode-markdownlint-0.23.0: davidanson.vscode-markdownlint-0.23.0
+[2019-01-30 15:30:25.777] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/davidanson.vscode-markdownlint-0.23.0
+[2019-01-30 15:30:25.778] [sharedprocess] [info] Installation completed. davidanson.vscode-markdownlint-0.23.0
+[2019-01-30 15:30:25.789] [sharedprocess] [info] Extensions installed successfully: davidanson.vscode-markdownlint
+[2019-01-30 15:30:25.907] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:25.927] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:29.013] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:29.042] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:29.071] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:29.104] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:29.125] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:29.148] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:29.174] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:29.187] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:29.188] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:30.945] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:47.647] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:47.675] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:47.700] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:30:47.717] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:47.722] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:47.731] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:30:59.609] [sharedprocess] [info] Installing extension: java
+[2019-01-30 15:30:59.625] [sharedprocess] [info] Scanned user extensions: 7
+[2019-01-30 15:31:04.777] [sharedprocess] [info] Downloaded extension: java /tmp/fa0a2ed1-9418-486c-b2d1-b5688f0101e4
+[2019-01-30 15:31:05.756] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.redhat.java-0.37.0: redhat.java-0.37.0
+[2019-01-30 15:31:05.756] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/redhat.java-0.37.0
+[2019-01-30 15:31:05.760] [sharedprocess] [info] Installation completed. redhat.java-0.37.0
+[2019-01-30 15:31:05.778] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2019-01-30 15:31:05.912] [sharedprocess] [info] Scanned user extensions: 8
+[2019-01-30 15:31:05.931] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:31:22.214] [sharedprocess] [info] Scanned user extensions: 8
+[2019-01-30 15:33:35.915] [sharedprocess] [info] Installing extension: activitusbar
+[2019-01-30 15:33:35.924] [sharedprocess] [info] Scanned user extensions: 8
+[2019-01-30 15:33:36.145] [sharedprocess] [info] Downloaded extension: activitusbar /tmp/d1c121d3-78b0-46ce-a0f0-bd5fa8ca754a
+[2019-01-30 15:33:36.164] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.gruntfuggly.activitusbar-0.0.16: gruntfuggly.activitusbar-0.0.16
+[2019-01-30 15:33:36.164] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/gruntfuggly.activitusbar-0.0.16
+[2019-01-30 15:33:36.164] [sharedprocess] [info] Installation completed. gruntfuggly.activitusbar-0.0.16
+[2019-01-30 15:33:36.171] [sharedprocess] [info] Extensions installed successfully: gruntfuggly.activitusbar
+[2019-01-30 15:33:36.297] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:36.311] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:33:38.158] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:38.188] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:38.228] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:38.257] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:38.260] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:33:38.267] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:33:38.277] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:33:38.281] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:33:38.292] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:33:39.725] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:03.802] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:03.832] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:03.853] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:03.867] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:34:03.871] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:34:03.878] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:34:14.065] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:14.086] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:14.107] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:34:14.125] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:34:14.132] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:34:14.136] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:25.911] [sharedprocess] [info] Installing extension: code-settings-sync
+[2019-01-30 15:36:25.922] [sharedprocess] [info] Scanned user extensions: 9
+[2019-01-30 15:36:26.610] [sharedprocess] [info] Downloaded extension: code-settings-sync /tmp/98130d14-5395-4eb0-9f6e-b61f412f7975
+[2019-01-30 15:36:28.141] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.shan.code-settings-sync-3.2.4: shan.code-settings-sync-3.2.4
+[2019-01-30 15:36:28.141] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/shan.code-settings-sync-3.2.4
+[2019-01-30 15:36:28.142] [sharedprocess] [info] Installation completed. shan.code-settings-sync-3.2.4
+[2019-01-30 15:36:28.155] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
+[2019-01-30 15:36:28.284] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:28.300] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:30.686] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:30.708] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:30.732] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:30.748] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:30.751] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:30.756] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:30.762] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:30.767] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-30 15:36:30.773] [sharedprocess] [info] Scanned user extensions: 10
+[2019-01-30 15:36:32.802] [sharedprocess] [info] Scanned user extensions: 10

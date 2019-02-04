@@ -1,0 +1,9 @@
+[2019-02-04 13:02:26.961] [renderer1] [info] standard startup
+[2019-02-04 13:15:50.555] [renderer1] [info] Requested uninstalling the extension gruntfuggly.activitusbar from window 1
+[2019-02-04 13:15:50.570] [renderer1] [info] Uninstalling the extension gruntfuggly.activitusbar-0.0.16 from window 1
+[2019-02-04 13:15:53.605] [renderer1] [info] no standard startup: not a new window
+[2019-02-04 13:16:07.662] [renderer1] [info] Requested uninstalling the extension shan.code-settings-sync from window 1
+[2019-02-04 13:16:07.699] [renderer1] [info] Uninstalling the extension shan.code-settings-sync-3.2.4 from window 1
+[2019-02-04 13:16:13.901] [renderer1] [info] no standard startup: not a new window
+[2019-02-04 13:17:45.643] [renderer1] [info] Setting search error: XHR timeout: 5000ms
+[2019-02-04 13:17:45.647] [renderer1] [info] Setting search error: XHR timeout: 5000ms

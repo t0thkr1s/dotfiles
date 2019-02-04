@@ -1,0 +1,42 @@
+[2019-01-31 19:37:01.938] [exthost] [info] extension host started
+[2019-01-31 19:37:01.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:01.960] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-01-31 19:37:01.966] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:01.966] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-01-31 19:37:01.974] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:01.974] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-01-31 19:37:02.016] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.016] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-01-31 19:37:02.020] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.020] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3/extensions/material.theme.config.js
+[2019-01-31 19:37:02.035] [exthost] [info] ExtensionService#_doActivateExtension Gruntfuggly.activitusbar {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.035] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/gruntfuggly.activitusbar-0.0.16/extension
+[2019-01-31 19:37:02.037] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.037] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2/out/src/extension
+[2019-01-31 19:37:02.079] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.079] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/shan.code-settings-sync-3.2.4/out/extension.js
+[2019-01-31 19:37:02.117] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:02.117] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5/out/extension
+[2019-01-31 19:37:02.118] [exthost] [info] eager extensions activated
+[2019-01-31 19:37:55.448] [exthost] [info] extension host started
+[2019-01-31 19:37:55.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.480] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-01-31 19:37:55.483] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.483] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-01-31 19:37:55.488] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.488] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-01-31 19:37:55.526] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.526] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-01-31 19:37:55.527] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.527] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3/extensions/material.theme.config.js
+[2019-01-31 19:37:55.535] [exthost] [info] ExtensionService#_doActivateExtension Gruntfuggly.activitusbar {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.535] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/gruntfuggly.activitusbar-0.0.16/extension
+[2019-01-31 19:37:55.536] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.536] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2/out/src/extension
+[2019-01-31 19:37:55.564] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.564] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/shan.code-settings-sync-3.2.4/out/extension.js
+[2019-01-31 19:37:55.587] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-01-31 19:37:55.587] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5/out/extension
+[2019-01-31 19:37:55.588] [exthost] [info] eager extensions activated
+[2019-01-31 19:37:59.024] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2019-01-31 19:37:59.024] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/james-yu.latex-workshop-5.21.0/out/src/main.js

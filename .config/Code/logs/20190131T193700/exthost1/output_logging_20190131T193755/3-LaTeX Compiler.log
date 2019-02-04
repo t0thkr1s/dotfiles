@@ -1,0 +1,327 @@
+ReadyLatexmk: This is Latexmk, John Collins, 7 August 2018, version: 4.59.
+Latexmk: Log file says output to 'thesis.pdf'
+Latexmk: ===For rule 'latex', the extensions differ between the
+   actual output file 'thesis.pdf',
+   and the expected output '/home/t0thkr1s/Documents/thesis/thesis.dvi'.
+   This could arise from use of \pdfoutput in the source file,
+   or from a configuration error
+   A future version of latexmk should be able to make dynamically
+   adjustments to deal with this problem
+Latexmk: Log file says output to 'thesis.pdf'
+Rule 'pdflatex': Rules & subrules not known to be previously run:
+   pdflatex
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.tex'
+      'thesis.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux) )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026079 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: Log file says output to 'thesis.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/home/t0thkr1s/Documents/thesis/thesis.pdf) are up-to-date
+Latexmk: This is Latexmk, John Collins, 7 August 2018, version: 4.59.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.tex'
+      'thesis.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux) )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026078 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: Log file says output to 'thesis.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/home/t0thkr1s/Documents/thesis/thesis.pdf) are up-to-date
+Latexmk: This is Latexmk, John Collins, 7 August 2018, version: 4.59.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.tex'
+      'thesis.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux)
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026078 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: References changed.
+Latexmk: Log file says output to 'thesis.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.aux'
+      'thesis.aux'
+      'thesis.out'
+      'thesis.toc'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux) )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026086 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: Log file says output to 'thesis.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/home/t0thkr1s/Documents/thesis/thesis.pdf) are up-to-date
+Latexmk: This is Latexmk, John Collins, 7 August 2018, version: 4.59.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.tex'
+      'thesis.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux)
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026082 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: References changed.
+Latexmk: Log file says output to 'thesis.pdf'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      '/home/t0thkr1s/Documents/thesis/thesis.aux'
+      'thesis.aux'
+      'thesis.out'
+      'thesis.toc'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="/home/t0thkr1s/Documents/thesis"  "/home/t0thkr1s/Documents/thesis/thesis.tex"'
+------------
+=== TeX engine is 'pdfTeX'
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/t0thkr1s/Documents/thesis/thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+(/usr/share/texlive/texmf-dist/tex/latex/thesis-ekf/thesis-ekf.cls
+Document Class: thesis-ekf 2018/02/03 v2.2 Thesis class for Eszterhazy Karoly University (Eger, Hungary)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)))) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty)) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def) (/usr/share/texlive/texmf-dist/tex/generic/babel-hungarian/magyar.ldf (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)))) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/listingsutf8.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texlive/texmf-dist/tex/latex/hulipsum/hulipsum.sty) (/home/t0thkr1s/Documents/thesis/thesis.aux) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty)) (/home/t0thkr1s/Documents/thesis/thesis.out) (/home/t0thkr1s/Documents/thesis/thesis.out)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+LaTeX Warning: Please use \usepackage[latin2]{inputenc}
+               or \usepackage[utf8]{inputenc}
+               with \usepackage[magyar]{babel}.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls) (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./kepek/eke-logo.pdf>] (/home/t0thkr1s/Documents/thesis/thesis.toc) [2] [3]
+1. fejezet.
+[4 </home/t0thkr1s/Documents/thesis/kepek/digitalocean.jpg>] (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\T1/cmr/m/sc/12 ONLINE\T1/cmr/m/n/12 : Num-ber of mo-bi-le pho-ne users world-wi-de from
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/cmr/m/n/12 2015 to 2020, []$\T1/cmtt/m/n/12 https : / / www . statista . com / statistics / 274774 /
+[5] (/home/t0thkr1s/Documents/thesis/thesis.aux) )
+(see the transcript file for additional information){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/t0thkr1s/Documents/thesis/thesis.pdf (5 pages, 1026078 bytes).
+SyncTeX written on /home/t0thkr1s/Documents/thesis/thesis.synctex.gz.
+Transcript written on /home/t0thkr1s/Documents/thesis/thesis.log.
+'thesis.fls' and '/home/t0thkr1s/Documents/thesis/thesis.fls' are identical (not copied) at /usr/bin/latexmk line 7394.
+Latexmk: Log file says output to 'thesis.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: All targets (/home/t0thkr1s/Documents/thesis/thesis.pdf) are up-to-date

@@ -1,0 +1,74 @@
+[2019-02-04 14:54:52.877] [exthost] [info] extension host started
+[2019-02-04 14:54:52.897] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:52.897] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-04 14:54:52.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:52.900] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-04 14:54:52.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:52.917] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-04 14:54:53.060] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:53.060] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-04 14:54:53.069] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:53.069] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3/extensions/material.theme.config.js
+[2019-02-04 14:54:53.085] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:53.085] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2/out/src/extension
+[2019-02-04 14:54:53.144] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:54:53.144] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5/out/extension
+[2019-02-04 14:54:53.151] [exthost] [info] eager extensions activated
+[2019-02-04 14:59:31.786] [exthost] [info] extension host started
+[2019-02-04 14:59:31.832] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:31.832] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-04 14:59:31.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:31.837] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-04 14:59:31.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:31.871] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-04 14:59:32.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:32.013] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-04 14:59:32.023] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:32.023] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3/extensions/material.theme.config.js
+[2019-02-04 14:59:32.040] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:32.041] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/esbenp.prettier-vscode-1.8.1/out/src/extension
+[2019-02-04 14:59:32.372] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:32.373] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2/out/src/extension
+[2019-02-04 14:59:32.421] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-02-04 14:59:32.421] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5/out/extension
+[2019-02-04 14:59:32.424] [exthost] [info] eager extensions activated
+[2019-02-04 15:01:22.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:01:22.088] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-02-04 15:01:22.096] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:01:22.096] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-02-04 15:01:22.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:01:22.153] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-02-04 15:03:24.420] [exthost] [info] extension host started
+[2019-02-04 15:03:24.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.443] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-04 15:03:24.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.446] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-02-04 15:03:24.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.467] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-02-04 15:03:24.560] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.560] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-04 15:03:24.567] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.567] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/equinusocio.vsc-material-theme-2.6.3/extensions/material.theme.config.js
+[2019-02-04 15:03:24.577] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.577] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/esbenp.prettier-vscode-1.8.1/out/src/extension
+[2019-02-04 15:03:24.736] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.736] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/pkief.material-icon-theme-3.6.2/out/src/extension
+[2019-02-04 15:03:24.768] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-02-04 15:03:24.768] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/wakatime.vscode-wakatime-1.2.5/out/extension
+[2019-02-04 15:03:24.773] [exthost] [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one {"startup":true,"activationEvent":"workspaceContains:README.md"}
+[2019-02-04 15:03:24.773] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/yzhang.markdown-all-in-one-2.0.1/out/src/extension
+[2019-02-04 15:03:24.846] [exthost] [info] eager extensions activated
+[2019-02-04 15:03:28.126] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:03:28.126] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2019-02-04 15:03:28.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:03:28.132] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-02-04 15:03:28.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-02-04 15:03:28.189] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-02-04 15:03:48.726] [exthost] [info] ExtensionService#_doActivateExtension foxundermoon.shell-format {"startup":false,"activationEvent":"onLanguage:shellscript"}
+[2019-02-04 15:03:48.726] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/foxundermoon.shell-format-4.0.4/out/src/extension
+[2019-02-04 15:03:51.497] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-02-04 15:03:51.497] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-02-04 15:03:51.592] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-02-04 15:03:51.593] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
+[2019-02-04 15:03:51.676] [exthost] [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-02-04 15:03:51.676] [exthost] [info] ExtensionService#loadCommonJSModule /home/t0thkr1s/.vscode/extensions/davidanson.vscode-markdownlint-0.23.0/extension

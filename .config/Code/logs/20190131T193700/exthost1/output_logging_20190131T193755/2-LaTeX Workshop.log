@@ -1,0 +1,74 @@
+[19:37:59] Initializing LaTeX Workshop.
+[19:37:59] Creating LaTeX Workshop http and websocket server.
+[19:37:59] LaTeX Workshop initialized.
+[19:37:59] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:01] Root file changed from: undefined. Find all dependencies.
+[19:38:01] Instatiating new file watcher for /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:01] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:01] Server created on 127.0.0.1:39785
+[19:38:01] Snippet data loaded.
+[19:38:01] LaTeX Workshop version: 5.21.0
+[19:38:03] VIEW command invoked.
+[19:38:03] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:03] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:38:03] Open external viewer for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:38:14] File watcher: responding to change in /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:14] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:14] Auto-build /home/t0thkr1s/Documents/thesis/thesis.tex upon save.
+[19:38:14] BUILD command invoked.
+[19:38:14] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:14] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:38:14] Building root file: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:14] Build root file /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/t0thkr1s/Documents/thesis,/home/t0thkr1s/Documents/thesis/thesis
+[19:38:15] LaTeX log parsed with 2 messages.
+[19:38:15] Recipe of length 1 finished.
+[19:38:15] Successfully built /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:15] No PDF viewer connected for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:38:56] File watcher: responding to change in /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:56] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:56] Auto-build /home/t0thkr1s/Documents/thesis/thesis.tex upon save.
+[19:38:56] BUILD command invoked.
+[19:38:56] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:56] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:38:56] Building root file: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:56] Build root file /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:56] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/t0thkr1s/Documents/thesis,/home/t0thkr1s/Documents/thesis/thesis
+[19:38:57] LaTeX log parsed with 2 messages.
+[19:38:57] Recipe of length 1 finished.
+[19:38:57] Successfully built /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:38:57] No PDF viewer connected for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:39:35] File watcher: responding to change in /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:35] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:35] Auto-build /home/t0thkr1s/Documents/thesis/thesis.tex upon save.
+[19:39:35] BUILD command invoked.
+[19:39:35] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:35] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:39:35] Building root file: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:35] Build root file /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:35] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/t0thkr1s/Documents/thesis,/home/t0thkr1s/Documents/thesis/thesis
+[19:39:37] LaTeX log parsed with 2 messages.
+[19:39:37] Recipe of length 1 finished.
+[19:39:37] Successfully built /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:37] No PDF viewer connected for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:39:42] File watcher: responding to change in /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:42] Parsing /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:42] Auto-build /home/t0thkr1s/Documents/thesis/thesis.tex upon save.
+[19:39:42] BUILD command invoked.
+[19:39:42] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:42] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:39:42] Building root file: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:42] Build root file /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:42] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/home/t0thkr1s/Documents/thesis,/home/t0thkr1s/Documents/thesis/thesis
+[19:39:43] LaTeX log parsed with 2 messages.
+[19:39:43] Recipe of length 1 finished.
+[19:39:43] Successfully built /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:39:43] No PDF viewer connected for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:45:38] ACTIONS command invoked.
+[19:45:39] ACTIONS command invoked.
+[19:45:49] TAB command invoked.
+[19:45:49] Found root file from active editor: /home/t0thkr1s/Documents/thesis/thesis.tex
+[19:45:49] Root file remains unchanged from: /home/t0thkr1s/Documents/thesis/thesis.tex.
+[19:45:49] Serving PDF file at http://127.0.0.1:39785/viewer.html?file=/pdf:%25252Fhome%25252Ft0thkr1s%25252FDocuments%25252Fthesis%25252Fthesis.pdf
+[19:45:49] Open PDF tab for /home/t0thkr1s/Documents/thesis/thesis.pdf
+[19:45:50] Preview PDF file: /home/t0thkr1s/Documents/thesis/thesis.pdf

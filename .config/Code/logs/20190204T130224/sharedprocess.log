@@ -1,0 +1,66 @@
+[2019-02-04 13:02:27.818] [sharedprocess] [info] main {"machineId":"6ab00198dcc7cf6ecda3c381c8cc81a1ececa80ad91c99f37f6ff6be2f68317e"}
+[2019-02-04 13:02:27.914] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:27.926] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:27.957] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:02:27.958] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:02:28.001] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:29.296] [sharedprocess] [info] Installing extension: vscode-docker
+[2019-02-04 13:02:29.297] [sharedprocess] [info] Installing extension: java
+[2019-02-04 13:02:29.325] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:29.326] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:43.637] [sharedprocess] [info] Downloaded extension: vscode-docker /tmp/df188750-b004-4019-80c0-e93b81a4a513
+[2019-02-04 13:02:43.971] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.peterjausovec.vscode-docker-0.5.2: peterjausovec.vscode-docker-0.5.2
+[2019-02-04 13:02:43.971] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/peterjausovec.vscode-docker-0.5.2
+[2019-02-04 13:02:43.972] [sharedprocess] [info] Installation completed. peterjausovec.vscode-docker-0.5.2
+[2019-02-04 13:02:43.998] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:02:44.010] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:02:44.011] [sharedprocess] [info] Extensions installed successfully: peterjausovec.vscode-docker
+[2019-02-04 13:03:07.826] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-04 13:03:58.222] [sharedprocess] [info] Downloaded extension: java /tmp/544c7e34-0054-4061-b4fe-7e9586f72e28
+[2019-02-04 13:03:58.681] [sharedprocess] [info] Extracted extension to /home/t0thkr1s/.vscode/extensions/.redhat.java-0.38.0: redhat.java-0.38.0
+[2019-02-04 13:03:58.681] [sharedprocess] [info] Renamed to /home/t0thkr1s/.vscode/extensions/redhat.java-0.38.0
+[2019-02-04 13:03:58.682] [sharedprocess] [info] Installation completed. redhat.java-0.38.0
+[2019-02-04 13:03:58.697] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2019-02-04 13:07:28.036] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:12:28.071] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:46.016] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:46.024] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:46.029] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:46.043] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:46.126] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:46.130] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:46.139] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:50.566] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-04 13:15:50.566] [sharedprocess] [info] Uninstalling extension: gruntfuggly.activitusbar-0.0.16
+[2019-02-04 13:15:50.578] [sharedprocess] [info] Scanned user extensions: 13
+[2019-02-04 13:15:50.586] [sharedprocess] [info] Successfully uninstalled extension: gruntfuggly.activitusbar-0.0.16
+[2019-02-04 13:15:50.900] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:50.911] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:53.177] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:53.209] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:53.231] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:53.261] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:53.263] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:53.269] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:53.280] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:53.287] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:15:53.298] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:15:53.663] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:16:07.694] [sharedprocess] [info] Scanned user extensions: 10
+[2019-02-04 13:16:07.695] [sharedprocess] [info] Uninstalling extension: shan.code-settings-sync-3.2.4
+[2019-02-04 13:16:07.711] [sharedprocess] [info] Scanned user extensions: 12
+[2019-02-04 13:16:07.713] [sharedprocess] [info] Successfully uninstalled extension: shan.code-settings-sync-3.2.4
+[2019-02-04 13:16:08.121] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:08.154] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:16:12.916] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:12.951] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:12.994] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:13.034] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:13.040] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:16:13.054] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:16:13.068] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:16:13.078] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-04 13:16:13.087] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:16:13.955] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:17:20.064] [sharedprocess] [info] Scanned user extensions: 9
+[2019-02-04 13:21:13.999] [sharedprocess] [info] Scanned user extensions: 9
