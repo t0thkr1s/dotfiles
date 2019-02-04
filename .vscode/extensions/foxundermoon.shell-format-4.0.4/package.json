@@ -1,0 +1,189 @@
+{
+	"name": "shell-format",
+	"displayName": "shell-format",
+	"description": "shellscript、Dockerfile、properties、gitignore、dotenv、hosts、jvmoptions... DocumentFormat",
+	"version": "4.0.4",
+	"publisher": "foxundermoon",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onLanguage:shellscript",
+		"onLanguage:dotenv",
+		"onLanguage:dockerfile",
+		"onLanguage:ignore",
+		"onLanguage:hosts",
+		"onLanguage:jvmoptions",
+		"onLanguage:properties",
+		"onLanguage:spring-boot-properties"
+	],
+	"main": "./out/src/extension",
+	"capabilities": {
+		"documentFormattingProvider": "true"
+	},
+	"icon": "logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/foxundermoon/vs-shell-format.git"
+	},
+	"bugs": {
+		"url": "https://github.com/foxundermoon/vs-shell-format/issues"
+	},
+	"keywords": [
+		"shell",
+		"docker",
+		"shellscript",
+		"format",
+		"bash",
+		"dockerfile",
+		"properties",
+		"formatter",
+		"beautify",
+		"zsh",
+		"fish",
+		"dotenv",
+		"hosts",
+		"jvmoptions",
+		"vmoptions",
+		"bashrc",
+		"zshrc"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "shellscript"
+			},
+			{
+				"id": "dockerfile",
+				"aliases": [
+					"docker",
+					"Dockerfile"
+				],
+				"filenamePatterns": [
+					"Dockerfile",
+					"Dockerfile.*",
+					"*.dockerfile"
+				]
+			},
+			{
+				"id": "ignore",
+				"aliases": [
+					"gitignore",
+					"dockerignore"
+				],
+				"filenames": [
+					".dockerignore",
+					".gitignore"
+				]
+			},
+			{
+				"id": "dotenv",
+				"aliases": [
+					"env"
+				],
+				"filenamePatterns": [
+					".env.*"
+				],
+				"filenames": [
+					"env",
+					".env"
+				]
+			},
+			{
+				"id": "jvmoptions",
+				"aliases": [
+					"vmoptions"
+				],
+				"extensions": [
+					".vmoptions"
+				],
+				"filenames": [
+					"jvm.options"
+				]
+			},
+			{
+				"id": "hosts",
+				"filenames": [
+					"hosts"
+				]
+			},
+			{
+				"id": "properties",
+				"aliases": [
+					"Properties",
+					"spring-boot-properties"
+				],
+				"extensions": [
+					".properties"
+				]
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "shell-format configuration",
+			"properties": {
+				"shellformat.path": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "the shfmt fullpath  example[ mac,linux ] /usr/local/bin/shfmt  [windows] C:/bin/shfmt.exe   download fron https://github.com/mvdan/sh/releases"
+				},
+				"shellformat.flag": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "shfmt -h  to see detail usage , example: -i 4 -p"
+				},
+				"shellformat.showError": {
+					"type": "boolean",
+					"default": true,
+					"description": "show error message when format error"
+				},
+				"shellformat.effectLanguages": {
+					"type": "array",
+					"default": [
+						"shellscript",
+						"dockerfile",
+						"dotenv",
+						"hosts",
+						"jvmoptions",
+						"ignore",
+						"gitignore",
+						"properties",
+						"spring-boot-properties"
+					],
+					"description": "kust effec  on the language"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"clean": "rm -rf out/",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^10.12.18",
+		"mocha": "^5.2.0",
+		"typescript": "^3.2.2",
+		"vscode": "^1.1.26"
+	},
+	"dependencies": {
+		"diff": "~3.0.0"
+	},
+	"__metadata": {
+		"id": "5fb19573-2183-4cf2-b53d-0fb869dae7ae",
+		"publisherId": "c5bb2216-aaba-47a1-962e-5561e40c03c5",
+		"publisherDisplayName": "foxundermoon"
+	}
+}

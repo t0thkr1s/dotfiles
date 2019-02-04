@@ -1,0 +1,25 @@
+npm WARN prepare removing existing node_modules/ before installation
+
+> fsevents@1.2.4 install /home/travis/build/Microsoft/vscode-python/node_modules/fsevents
+> node install
+
+
+> typemoq@2.1.0 postinstall /home/travis/build/Microsoft/vscode-python/node_modules/typemoq
+> postinstall-build dist
+
+
+> husky@1.1.2 install /home/travis/build/Microsoft/vscode-python/node_modules/husky
+> node husky install
+
+husky > setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> python@2019.1.0 postinstall /home/travis/build/Microsoft/vscode-python
+> node ./node_modules/vscode/bin/install && node ./build/ci/postInstall.js
+
+Detected VS Code engine version: ^1.26.0
+Found minimal version that qualifies engine range: 1.26.0
+Fetching vscode.d.ts from: https://raw.githubusercontent.com/Microsoft/vscode/4e9361845dc28659923a300945f84731393e210d/src/vs/vscode.d.ts
+vscode.d.ts successfully installed!
+
+added 1861 packages in 18.063s

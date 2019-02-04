@@ -1,0 +1,83 @@
+{
+	"name": "vscode-wakatime",
+	"displayName": "WakaTime",
+	"description": "Metrics, insights, and time tracking automatically generated from your programming activity.",
+	"version": "1.2.5",
+	"publisher": "WakaTime",
+	"author": {
+		"name": "WakaTime"
+	},
+	"categories": [
+		"Other"
+	],
+	"homepage": "https://wakatime.com/",
+	"bugs": {
+		"url": "https://github.com/wakatime/vscode-wakatime/issues"
+	},
+	"license": "BSD-3-Clause",
+	"icon": "images/wakatime-logo.png",
+	"galleryBanner": {
+		"color": "#AEC3D8",
+		"theme": "light"
+	},
+	"activationEvents": [
+		"*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wakatime/vscode-wakatime.git"
+	},
+	"engines": {
+		"vscode": "^1.17.0",
+		"sqlops": "*"
+	},
+	"main": "./out/extension",
+	"scripts": {
+		"setup": "mkdir -p ./out/test",
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "wakatime.apikey",
+				"title": "WakaTime API Key"
+			},
+			{
+				"command": "wakatime.proxy",
+				"title": "WakaTime Proxy"
+			},
+			{
+				"command": "wakatime.debug",
+				"title": "WakaTime Debug"
+			},
+			{
+				"command": "wakatime.status_bar_icon",
+				"title": "WakaTime Status Bar Icon"
+			},
+			{
+				"command": "wakatime.dashboard",
+				"title": "WakaTime Dashboard"
+			}
+		]
+	},
+	"dependencies": {
+		"adm-zip": "0.4.11",
+		"request": "2.87.0",
+		"rimraf": "2.6.2"
+	},
+	"devDependencies": {
+		"@types/node": "^10.5.5",
+		"request": "2.87.0",
+		"rimraf": "2.6.2",
+		"typescript": "^3.0.1",
+		"vscode": "^1.1.14"
+	},
+	"__metadata": {
+		"id": "f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3",
+		"publisherId": "27977793-9e84-451b-8977-744ce63f3d70",
+		"publisherDisplayName": "WakaTime"
+	}
+}

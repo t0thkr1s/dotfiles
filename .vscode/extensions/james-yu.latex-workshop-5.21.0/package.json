@@ -1,0 +1,1093 @@
+{
+	"name": "latex-workshop",
+	"displayName": "LaTeX Workshop",
+	"description": "Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.",
+	"icon": "icon.png",
+	"version": "5.21.0",
+	"publisher": "James-Yu",
+	"license": "MIT",
+	"homepage": "https://github.com/James-Yu/LaTeX-Workshop",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/James-Yu/LaTeX-Workshop.git"
+	},
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"latex",
+		"tex",
+		"compile",
+		"preview",
+		"hint"
+	],
+	"activationEvents": [
+		"onLanguage:tex",
+		"onLanguage:latex",
+		"onLanguage:doctex",
+		"onLanguage:pdf",
+		"onCommand:latex-workshop.build",
+		"onCommand:latex-workshop.recipes",
+		"onCommand:latex-workshop.view",
+		"onCommand:latex-workshop.tab",
+		"onCommand:latex-workshop.synctex",
+		"onCommand:latex-workshop.clean",
+		"onCommand:latex-workshop.citation",
+		"onCommand:latex-workshop.wordcount",
+		"onCommand:latex-workshop.compilerlog",
+		"onCommand:latex-workshop.log",
+		"onCommand:latex-workshop.actions"
+	],
+	"main": "./out/src/main.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "tex",
+				"aliases": [
+					"TeX",
+					"tex"
+				],
+				"extensions": [
+					".sty",
+					".cls",
+					".bbx",
+					".cbx",
+					".ltx"
+				],
+				"configuration": "./syntax/syntax.json"
+			},
+			{
+				"id": "doctex",
+				"aliases": [
+					"DocTeX",
+					"doctex"
+				],
+				"extensions": [
+					".dtx"
+				],
+				"configuration": "./syntax/syntax-doctex.json"
+			},
+			{
+				"id": "latex",
+				"aliases": [
+					"LaTeX",
+					"latex"
+				],
+				"extensions": [
+					".tex"
+				],
+				"configuration": "./syntax/syntax.json"
+			},
+			{
+				"id": "bibtex",
+				"aliases": [
+					"BibTeX",
+					"bibtex"
+				],
+				"extensions": [
+					".bib"
+				]
+			},
+			{
+				"id": "latex-expl3",
+				"aliases": [
+					"LaTeX Expl3"
+				],
+				"configuration": "./syntax/syntax.json"
+			},
+			{
+				"id": "pdf",
+				"aliases": [
+					"Plain Text (PDF)",
+					"pdf"
+				],
+				"extensions": [
+					".pdf"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "tex",
+				"scopeName": "text.tex",
+				"path": "./syntax/TeX.plist"
+			},
+			{
+				"language": "doctex",
+				"scopeName": "text.tex.doctex",
+				"path": "./syntax/DocTeX.plist"
+			},
+			{
+				"language": "latex",
+				"scopeName": "text.tex.latex",
+				"path": "./syntax/LaTeX.plist",
+				"embeddedLanguages": {
+					"source.asymptote": "asymptote",
+					"source.cpp": "cpp",
+					"source.css": "css",
+					"source.dot": "dot",
+					"source.gnuplot": "gnuplot",
+					"text.html": "html",
+					"source.java": "java",
+					"source.js": "js",
+					"source.lua": "lua",
+					"source.python": "python",
+					"text.xtml": "xtml",
+					"source.yaml": "yaml"
+				}
+			},
+			{
+				"language": "bibtex",
+				"scopeName": "text.bibtex",
+				"path": "./syntax/Bibtex.plist"
+			},
+			{
+				"language": "latex-expl3",
+				"scopeName": "text.tex.latex.expl3",
+				"path": "./syntax/LaTeX Expl3.plist"
+			},
+			{
+				"scopeName": "markdown.latex.codeblock",
+				"path": "./syntax/latexblock.json",
+				"injectTo": [
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.latex": "latex"
+				}
+			}
+		],
+		"snippets": [
+			{
+				"language": "latex",
+				"path": "./snippets/latex.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "latex-workshop.navigate-envpair",
+				"title": "Navigate to matching begin/end",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.select-envname",
+				"title": "Select the current environment name",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.multicursor-envname",
+				"title": "Add a multicursor to the current environment name",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.wrap-env",
+				"title": "Surround selection with \\begin{}...\\end{}",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.close-env",
+				"title": "Close current environment",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.build",
+				"title": "Build LaTeX project",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.recipes",
+				"title": "Build with recipe",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.view",
+				"title": "View LaTeX PDF file",
+				"category": "LaTeX Workshop",
+				"icon": {
+					"light": "icons/view-pdf-light.svg",
+					"dark": "icons/view-pdf-dark.svg"
+				}
+			},
+			{
+				"command": "latex-workshop.tab",
+				"title": "View LaTeX PDF file in VSCode tab",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.refresh-viewer",
+				"title": "Refresh all LaTeX PDF viewers",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.kill",
+				"title": "Kill LaTeX compiler process",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.synctex",
+				"title": "SyncTeX from cursor",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.clean",
+				"title": "Clean up auxiliary files",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.citation",
+				"title": "Open citation browser",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.addtexroot",
+				"title": "Insert %!TeX root magic comment",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.wordcount",
+				"title": "Count words in LaTeX document",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.log",
+				"title": "Show LaTeX Workshop messages",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop.actions",
+				"title": "LaTeX actions",
+				"category": "LaTeX Workshop"
+			},
+			{
+				"command": "latex-workshop-dev.parselog",
+				"title": "Parse current document as LaTeX logs",
+				"category": "LaTeX Workshop DevTools"
+			}
+		],
+		"keybindings": [
+			{
+				"key": "ctrl+alt+b",
+				"mac": "cmd+alt+b",
+				"command": "latex-workshop.build",
+				"when": "editorTextFocus && !latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+alt+c",
+				"mac": "cmd+alt+c",
+				"command": "latex-workshop.clean",
+				"when": "editorTextFocus && !latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+alt+v",
+				"mac": "cmd+alt+v",
+				"command": "latex-workshop.view",
+				"when": "editorTextFocus && !latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+alt+j",
+				"mac": "cmd+alt+j",
+				"command": "latex-workshop.synctex",
+				"when": "editorTextFocus && !latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+alt+x",
+				"mac": "cmd+alt+x",
+				"command": "workbench.view.extension.latex",
+				"when": "editorTextFocus && !latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l alt+b",
+				"mac": "cmd+l alt+b",
+				"command": "latex-workshop.build",
+				"when": "editorTextFocus && latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l alt+c",
+				"mac": "cmd+l alt+c",
+				"command": "latex-workshop.clean",
+				"when": "editorTextFocus && latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l alt+v",
+				"mac": "cmd+l alt+v",
+				"command": "latex-workshop.view",
+				"when": "editorTextFocus && latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l alt+j",
+				"mac": "cmd+l alt+j",
+				"command": "latex-workshop.synctex",
+				"when": "editorTextFocus && latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l alt+x",
+				"mac": "cmd+l alt+x",
+				"command": "workbench.view.extension.latex",
+				"when": "editorTextFocus && latex-workshop:altkeymap"
+			},
+			{
+				"key": "ctrl+l ctrl+enter",
+				"mac": "cmd+l cmd+enter",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.item"
+			},
+			{
+				"key": "ctrl+l ctrl+b",
+				"mac": "cmd+l cmd+b",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textbf"
+			},
+			{
+				"key": "ctrl+l ctrl+i",
+				"mac": "cmd+l cmd+i",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textit"
+			},
+			{
+				"key": "ctrl+l ctrl+u",
+				"mac": "cmd+l cmd+u",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.underline"
+			},
+			{
+				"key": "ctrl+l ctrl+e",
+				"mac": "cmd+l cmd+e",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.emph"
+			},
+			{
+				"key": "ctrl+l ctrl+r",
+				"mac": "cmd+l cmd+r",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textrm"
+			},
+			{
+				"key": "ctrl+l ctrl+t",
+				"mac": "cmd+l cmd+t",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.texttt"
+			},
+			{
+				"key": "ctrl+l ctrl+s",
+				"mac": "cmd+l cmd+s",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textsl"
+			},
+			{
+				"key": "ctrl+l ctrl+c",
+				"mac": "cmd+l cmd+c",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textsc"
+			},
+			{
+				"key": "ctrl+l ctrl+n",
+				"mac": "cmd+l cmd+n",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textnormal"
+			},
+			{
+				"key": "ctrl+l ctrl+6",
+				"mac": "cmd+l cmd+6",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textsuperscript"
+			},
+			{
+				"key": "ctrl+l ctrl+oem_minus",
+				"mac": "cmd+l cmd+oem_minus",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.textsubscript"
+			},
+			{
+				"key": "ctrl+m ctrl+b",
+				"mac": "cmd+m cmd+b",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathbf"
+			},
+			{
+				"key": "ctrl+m ctrl+i",
+				"mac": "cmd+m cmd+i",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathit"
+			},
+			{
+				"key": "ctrl+m ctrl+r",
+				"mac": "cmd+m cmd+r",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathrm"
+			},
+			{
+				"key": "ctrl+m ctrl+t",
+				"mac": "cmd+m cmd+t",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathtt"
+			},
+			{
+				"key": "ctrl+m ctrl+s",
+				"mac": "cmd+m cmd+s",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathsf"
+			},
+			{
+				"key": "ctrl+m ctrl+shift+b",
+				"mac": "cmd+m cmd+shift+b",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathbb"
+			},
+			{
+				"key": "ctrl+m ctrl+c",
+				"mac": "cmd+m cmd+c",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex'",
+				"command": "latex-workshop.shortcut.mathcal"
+			},
+			{
+				"key": "ctrl+l ctrl+w",
+				"mac": "cmd+l cmd+w",
+				"when": "editorTextFocus && !editorReadonly && editorHasSelection && editorLangId == 'latex'",
+				"command": "latex-workshop.surround"
+			},
+			{
+				"command": "latex-workshop.onEnterKey",
+				"key": "enter",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex' && !suggestWidgetVisible &&  vim.active && vim.mode == 'Insert'"
+			},
+			{
+				"command": "latex-workshop.onEnterKey",
+				"key": "enter",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex' && !suggestWidgetVisible &&  !vim.active"
+			},
+			{
+				"command": "latex-workshop.onAltEnterKey",
+				"key": "alt+enter",
+				"when": "editorTextFocus && !editorReadonly && editorLangId == 'latex' && !suggestWidgetVisible"
+			}
+		],
+		"configurationDefaults": {
+			"[latex]": {
+				"editor.formatOnPaste": false,
+				"editor.formatOnSave": false,
+				"editor.suggestSelection": "recentlyUsedByPrefix"
+			}
+		},
+		"configuration": {
+			"type": "object",
+			"title": "LaTeX",
+			"properties": {
+				"latex-workshop.latex.recipes": {
+					"type": "array",
+					"default": [
+						{
+							"name": "latexmk",
+							"tools": [
+								"latexmk"
+							]
+						},
+						{
+							"name": "pdflatex -> bibtex -> pdflatex*2",
+							"tools": [
+								"pdflatex",
+								"bibtex",
+								"pdflatex",
+								"pdflatex"
+							]
+						}
+					],
+					"markdownDescription": "Define LaTeX compiling recipes.\nEach recipe in the list is an object declares its name and the names of tools to be used sequentially, which are defined in `latex-workshop.latex.tools`.\nBy default, the first recipe is used to compile the project. For details, please visit https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipe."
+				},
+				"latex-workshop.latex.tools": {
+					"type": "array",
+					"default": [
+						{
+							"name": "latexmk",
+							"command": "latexmk",
+							"args": [
+								"-synctex=1",
+								"-interaction=nonstopmode",
+								"-file-line-error",
+								"-pdf",
+								"-outdir=%OUTDIR%",
+								"%DOC%"
+							]
+						},
+						{
+							"name": "pdflatex",
+							"command": "pdflatex",
+							"args": [
+								"-synctex=1",
+								"-interaction=nonstopmode",
+								"-file-line-error",
+								"%DOC%"
+							]
+						},
+						{
+							"name": "bibtex",
+							"command": "bibtex",
+							"args": [
+								"%DOCFILE%"
+							]
+						}
+					],
+					"markdownDescription": "Define LaTeX compiling tools to be used in recipes.\nEach tool is labeled by its `name`. When invoked, `command` is spawned with arguments defined in `args`. Typically no spaces should appear in each argument unless in paths.\nPlaceholders `%DOC%`, `%DOCFILE%`, `%DIR%`, `%TMPDIR%` and `%OUTDIR%` are available. For details, please visit https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipe."
+				},
+				"latex-workshop.latex.magic.args": {
+					"type": "array",
+					"default": [
+						"-synctex=1",
+						"-interaction=nonstopmode",
+						"-file-line-error",
+						"%DOC%"
+					],
+					"markdownDescription": "Define the arguments to be input to magic command executable."
+				},
+				"latex-workshop.latex.magic.bib.args": {
+					"type": "array",
+					"default": [
+						"%DOCFILE%"
+					],
+					"markdownDescription": "Define the arguments to be input to BIB magic command executable."
+				},
+				"latex-workshop.latex.outDir": {
+					"type": "string",
+					"default": "%DIR%",
+					"markdownDescription": "The directory where the extension tries to find project files (e.g., PDF and SyncTeX files) are located.\nBoth relative and absolute paths are supported. Relative path start from the root file location, so beware if it is located in sub-directory. The path must not contain a trailing slash.\nThe LaTeX toolchain should output files to this path.\nPlaceholders `%DOC%`, `%DOCFILE`, `%DIR%` and `%TMPDIR%` are available."
+				},
+				"latex-workshop.latex.additionalBib": {
+					"type": "array",
+					"default": [],
+					"markdownDescription": "Addition bibliography files to watch.\nBoth relative and absolute paths/globs are supported, but absolute ones are suggested. Relative path start from the root file location, so be ware if it is located in sub-directory.\n**This setting has been deprecated in favor of `latex-workshop.latex.bibDirs`."
+				},
+				"latex-workshop.latex.bibDirs": {
+					"type": "array",
+					"default": [],
+					"markdownDescription": "List of directories where to look for `.bib` files.\nAbsolute paths are required. This setting is only used by the intellisense feature, you may also need to set the environment variable `BIBINPUTS` properly for the LaTeX compiler to find the `.bib` files."
+				},
+				"latex-workshop.latex.autoBuild.onSave.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Build LaTeX after saving LaTeX source file.\nThis property defines whether LaTeX Workshop will execute the LaTeX toolchain command(s) to build the project after new LaTeX contents are saved."
+				},
+				"latex-workshop.latex.autoBuild.onTexChange.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Build LaTeX after a LaTeX source file has changed in the workspace.\nThis property defines whether LaTeX Workshop will execute the LaTeX toolchain command(s) to build the project after any LaTeX file in the workspace is saved on the disk which is not open in the active editor window."
+				},
+				"latex-workshop.latex.autoBuild.cleanAndRetry.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Delete LaTeX auxillary files when errors occur during build and retry.\nThis property defines whether LaTeX Workshop will try to clean and build the project once again after errors happen in the build toolchain."
+				},
+				"latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Clear the LaTeX Compiler logs before every step of a recipe.\nSet this property to false to keep the logs of all tools in a recipe."
+				},
+				"latex-workshop.latex.clean.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Delete LaTeX auxillary files after building project.\nThis property defines whether LaTeX Workshop will clean up all unnecessary files after building the project."
+				},
+				"latex-workshop.latex.clean.onFailBuild.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Delete LaTeX auxillary files after a failed building process.\nThis property defines whether LaTeX Workshop will clean up all unnecessary files upon building errors."
+				},
+				"latex-workshop.latex.clean.fileTypes": {
+					"type": "array",
+					"default": [
+						"*.aux",
+						"*.bbl",
+						"*.blg",
+						"*.idx",
+						"*.ind",
+						"*.lof",
+						"*.lot",
+						"*.out",
+						"*.toc",
+						"*.acn",
+						"*.acr",
+						"*.alg",
+						"*.glg",
+						"*.glo",
+						"*.gls",
+						"*.ist",
+						"*.fls",
+						"*.log",
+						"*.fdb_latexmk"
+					],
+					"markdownDescription": "Files to clean.\nThis property must be an array of strings. File globs such as *.removeme, something?.aux can be used."
+				},
+				"latex-workshop.latex.option.maxPrintLine.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Add `--max-print-line` option to LaTeX build commands. This flag tells some MikTeX compilers to produce non hard wrapped log messages. Non hard wrapped log messages are required for the _Problem_ Pane to properly display messages."
+				},
+				"latex-workshop.view.outline.sections": {
+					"type": "array",
+					"default": [
+						"part",
+						"chapter",
+						"section",
+						"subsection",
+						"subsubsection"
+					],
+					"markdownDescription": "The section names of LaTeX outline hierarchy. It is also used by the folding mechanism.\nThis property is an array of case-sensitive strings in the order of document structure hierarchy. For multiple tags in the same level, separate the tags with `|` as delimiters, e.g., `section|alternative`."
+				},
+				"latex-workshop.view.autoActivateLatex.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Auto activate the LaTeX view when switching from non-tex to tex files.\nThis will cause the view to appear consistently upon activating the extension."
+				},
+				"latex-workshop.view.pdf.viewer": {
+					"type": "string",
+					"default": "none",
+					"enum": [
+						"none",
+						"browser",
+						"tab",
+						"external"
+					],
+					"markdownDescription": "The default PDF viewer.",
+					"enumDescriptions": [
+						"Undetermined viewer. A viewer selector will pop up upon viewing PDF.",
+						"Open PDF with the default web browser.",
+						"Open PDF with the built-in tab viewer.",
+						"[Experimental] Open PDF with the external viewer set in \"View > Pdf > External: command\"."
+					]
+				},
+				"latex-workshop.view.pdf.ref.viewer": {
+					"type": "string",
+					"default": "auto",
+					"enum": [
+						"auto",
+						"tabOrBrowser",
+						"external"
+					],
+					"markdownDescription": "PDF viewer used for [View on PDF] link on \\ref."
+				},
+				"latex-workshop.view.pdf.external.command": {
+					"type": "object",
+					"default": {
+						"command": "",
+						"args": [
+							""
+						]
+					},
+					"markdownDescription": "The command to execute when using external viewer.\nThis function is not officially supported. %PDF% is the placeholder for the absolute path to the generated PDF file."
+				},
+				"latex-workshop.view.pdf.external.synctex": {
+					"type": "object",
+					"default": {
+						"command": "SumatraPDF.exe",
+						"args": [
+							"%LINE%",
+							"%PDF%",
+							"%TEX%"
+						]
+					},
+					"markdownDescription": "The command to execute when forward synctex to external viewer.\nThis function is not officially supported. %LINE% is the line number, %PDF% is the placeholder for the absolute path to the generated PDF file, and %TEX% is the source LaTeX file path with `.tex` extension from which syncTeX is fired."
+				},
+				"latex-workshop.view.pdf.zoom": {
+					"type": "string",
+					"default": "auto",
+					"markdownDescription": "The default zoom level of the PDF viewer.\nThis default value will be passed to the viewer upon opening. Possible values are `auto`, `page-actual`, `page-fit`, `page-width`, and one-based scale values (e.g., 0.5 for 50%, 2.0 for 200%)."
+				},
+				"latex-workshop.view.pdf.scrollMode": {
+					"type": "number",
+					"default": 0,
+					"markdownDescription": "The default scroll mode of the PDF viewer.\nThis default value will be passed to the viewer upon opening. Possible values are `0` (vertical), `1`(horizontal) and `2` (wrapped)."
+				},
+				"latex-workshop.view.pdf.spreadMode": {
+					"type": "number",
+					"default": 0,
+					"markdownDescription": "The default spread mode of the PDF viewer.\nThis default value will be passed to the viewer upon opening. Possible values are `0` (none), `1` (odd) and `2` (even)."
+				},
+				"latex-workshop.view.pdf.hand": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Define if the hand tool is enabled by default in the PDF viewer."
+				},
+				"latex-workshop.view.pdf.invert": {
+					"type": "number",
+					"default": 0,
+					"markdownDescription": "Define the CSS invert filter level of the PDF viewer.\nThis config can invert the color of PDF. Possible values are from 0 to 1."
+				},
+				"latex-workshop.synctex.path": {
+					"type": "string",
+					"default": "synctex",
+					"markdownDescription": "Define the location of SyncTeX executive file.\nAdditional arguments, e.g., synctex modes and position of click, will be appended to this command."
+				},
+				"latex-workshop.synctex.afterBuild.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Execute forward synctex at cursor position after compiling LaTeX project."
+				},
+				"latex-workshop.synctex.synctexjs.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable using a builtin synctex function. The command set in latex-workshop.synctex.path will not be used."
+				},
+				"latex-workshop.chktex.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Enable linting LaTeX with ChkTeX.\nCheck `latex-workshop.chktex.run` to control when the linting is executed if this config is set to `true`."
+				},
+				"latex-workshop.chktex.run": {
+					"type": "string",
+					"enum": [
+						"onSave",
+						"onType"
+					],
+					"default": "onSave",
+					"markdownDescription": "When LaTeX should be linted by ChkTeX.\nIf set to `onSave`, the whole LaTeX project will be linted upon saving.\nIf set to `onType`, the active document will be linted when input is stopped for a period of time defined in `latex-workshop.chktex.delay`, besides the behavior of `onSave`."
+				},
+				"latex-workshop.chktex.path": {
+					"type": "string",
+					"default": "chktex",
+					"markdownDescription": "Define the location of ChkTeX executive file.\nThis command will be joint with `latex-workshop.chktex.args.*` and required arguments to form a complete command of ChkTeX."
+				},
+				"latex-workshop.chktex.args.active": {
+					"type": "array",
+					"default": [
+						"-wall",
+						"-n22",
+						"-n30",
+						"-e16",
+						"-q"
+					],
+					"markdownDescription": "Linter arguments to check LaTeX syntax of the current file state in real time with ChkTeX.\nArguments must be in separate strings in the array. Additional arguments, i.e., `-I0 -f%f:%l:%c:%d:%k:%n:%m\\n` will be appended when constructing the command. Current file contents will be piped to the command through stdin."
+				},
+				"latex-workshop.chktex.args.root": {
+					"type": "array",
+					"default": [
+						"-wall",
+						"-n22",
+						"-n30",
+						"-e16",
+						"-q"
+					],
+					"markdownDescription": "Linter arguments to check LaTeX syntax of the entire project from the root file with ChkTeX.\nArguments must be in separate strings in the array. Additional arguments, i.e., `-f%f:%l:%c:%d:%k:%n:%m\\n %DOC%` will be appended when constructing the command."
+				},
+				"latex-workshop.chktex.delay": {
+					"type": "number",
+					"default": 500,
+					"markdownDescription": "Defines the delay in milliseconds for chktex to wait after stopped typing.\nThis config only matters when `latex-workshop.chktex.run` is set to `onType`."
+				},
+				"latex-workshop.texcount.path": {
+					"type": "string",
+					"default": "texcount",
+					"markdownDescription": "Define the location of TeXCount executive file/script.\nThis command will be joint with `latex-workshop.texcount.args` and required arguments to form a complete command of TeXCount."
+				},
+				"latex-workshop.texcount.args": {
+					"type": "array",
+					"default": [],
+					"markdownDescription": "TeXCount arguments to count words in LaTeX document of the entire project from the root file, or the current document.\nArguments must be in separate strings in the array. Additional arguments, i.e., `-merge %DOC%` for the project and the current document path for counting current file will be appended when constructing the command."
+				},
+				"latex-workshop.intellisense.citation.type": {
+					"type": "string",
+					"enum": [
+						"inline",
+						"browser"
+					],
+					"default": "inline",
+					"markdownDescription": "Defines which type of hint to show when intellisense provides citation suggestions.",
+					"enumDescriptions": [
+						"Use the inline intellisense to provide citation completion items.",
+						"Use a dropdown menu to provide citation completion items."
+					]
+				},
+				"latex-workshop.intellisense.citation.label": {
+					"type": "string",
+					"enum": [
+						"bibtex key",
+						"title",
+						"authors"
+					],
+					"default": "bibtex key",
+					"markdownDescription": "Defines what to show as suggestion labels when intellisense provides citation suggestions.",
+					"enumDescriptions": [
+						"Show bibtex keys in the inline intellisense.",
+						"Show publication titles in the inline intellisense.",
+						"Show publication authors in the inline intellisense."
+					]
+				},
+				"latex-workshop.intellisense.citation.maxfilesizeMB": {
+					"type": "number",
+					"default": 5,
+					"markdownDescription": "Defines the maximum bibtex file size for the extension to parse in MB."
+				},
+				"latex-workshop.intellisense.surroundCommand.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "When `\\` is typed with text selected, surround the selection with LaTeX command.\n**This feature is deprecated, use `ctrl+l`,`ctrl+w`."
+				},
+				"latex-workshop.intellisense.unimathsymbols.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "When `\\` is typed, show unimath symbols in the dropdown selector."
+				},
+				"latex-workshop.intellisense.package.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Auto-complete commands and environments from used packages."
+				},
+				"latex-workshop.message.badbox.show": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Show badbox information in the problems panel."
+				},
+				"latex-workshop.message.latexlog.exclude": {
+					"type": "array",
+					"default": [],
+					"markdownDescription": "Exclude log messages that matches the given regexp from the problems panel."
+				},
+				"latex-workshop.message.information.show": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Display information messages in popup notifications."
+				},
+				"latex-workshop.message.warning.show": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Display warning messages in popup notifications."
+				},
+				"latex-workshop.message.error.show": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Display error messages in popup notifications."
+				},
+				"latex-workshop.message.update.show": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Display LaTeX Workshop update message on new versions."
+				},
+				"latex-workshop.message.log.show": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Display LaTeX Workshop debug log in output panel.\nThis property defines whether LaTeX Workshop will output its debug log to the log panel."
+				},
+				"latex-workshop.latexindent.path": {
+					"type": "string",
+					"default": "latexindent",
+					"markdownDescription": "Define the location of the latexindent executable file."
+				},
+				"latex-workshop.latexindent.args": {
+					"type": "array",
+					"default": [
+						"-c",
+						"%DIR%/",
+						"%TMPFILE%",
+						"-y=defaultIndent: '%INDENT%'"
+					],
+					"markdownDescription": "Define the command line arguments for latexindent. Available placeholders:\n- %DOC%, %DOCFILE%, %DIR%: same as latex-workshop.latex.toolchain args.\n- %TMPFILE%: would be replaced with the path of file which contains raw TeX source to be formatted. At this moment you need to use it as an input file of `latexindent`.\n- %INDENT%: would be replaced with the string which represents indent of the target document.\n\nNote: At this moment -c option requires trailing slash."
+				},
+				"latex-workshop.docker.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Enable docker-based LaTeX distribution support.\nDo not set this item to `true` unless you are aware of what it means.\nThis extension will use the images defined in `latex-workshop.docker.image.latex` to execute `latexmk`, `synctex`, `texcount`, and `latexindent`."
+				},
+				"latex-workshop.docker.image.latex": {
+					"type": "string",
+					"default": "tianon/latex",
+					"markdownDescription": "Define the image for `latexmk`, `synctex`, `texcount`, and `latexindent`."
+				},
+				"latex-workshop.showContextMenu": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Enable the LaTeX contextual menu. This menu is deactived as it is available through the new LaTeX badge. Just set this variable to `true` to recover the menu."
+				},
+				"latex-workshop.bind.enter.key": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable the automatic insertion of `\\item` on a newline when pressing `Enter` in a line starting in `\\item`."
+				},
+				"latex-workshop.bind.altKeymap.enabled": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Use alternative keymap combo, i.e., `ctrl`+`l` `alt`+key, to replace the default `ctrl`/`cmd`+`alt` shortcuts.\nReload vscode to make this configuration effective."
+				},
+				"latex-workshop.hoverReference.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable Hover on References."
+				},
+				"latex-workshop.hoverCitation.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable Hover on Citations."
+				},
+				"latex-workshop.hoverCommandDoc.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable Hover on Commands to show the possible signatures."
+				},
+				"latex-workshop.hoverPreview.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Enable Hover Preview."
+				},
+				"latex-workshop.hoverPreview.scale": {
+					"type": "number",
+					"default": 1,
+					"markdownDescription": "Scaling of Hover Preview."
+				},
+				"latex-workshop.hoverPreview.cursor.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Render cursor in Hover Preview at the current position."
+				},
+				"latex-workshop.hoverPreview.cursor.symbol": {
+					"type": "string",
+					"default": "\\ddagger",
+					"markdownDescription": "Cursor symbol in Hover Preview."
+				},
+				"latex-workshop.hoverPreview.cursor.color": {
+					"type": "string",
+					"default": "auto",
+					"enum": [
+						"auto",
+						"black",
+						"blue",
+						"brown",
+						"cyan",
+						"darkgray",
+						"gray",
+						"green",
+						"lightgray",
+						"lime",
+						"magenta",
+						"olive",
+						"orange",
+						"pink",
+						"purple",
+						"red",
+						"teal",
+						"violet",
+						"white",
+						"yellow"
+					],
+					"markdownDescription": "The color of cursor in Hover Preview."
+				},
+				"latex-workshop.hoverPreview.ref.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDdescription": "Render Hover Preview on \\ref."
+				},
+				"latex-workshop.intellisense.optionalArgsEntries.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Some LaTeX commands can have several forms, each with different arguments. If set to True, the intellisense completion list will have one entry for each form of a given command. Default is true."
+				},
+				"latex-workshop.intellisense.useTabStops.enabled": {
+					"type": "boolean",
+					"default": true,
+					"markdownDescription": "Many snippets use PlaceHolders of the form ${\\d:some_text} for their argument. You may prefer to use TabStops ${\\d} instead, which allows for direct call to intellisense again. Default is true.\nReload vscode to make this configuration effective."
+				},
+				"latex-workshop.texdoc.path": {
+					"type": "string",
+					"default": "texdoc",
+					"markdownDescription": "Define the location of texdoc executable.\nThis command is used to show a package documentation."
+				}
+			}
+		},
+		"menus": {
+			"editor/context": [
+				{
+					"when": "config.latex-workshop.showContextMenu && editorLangId == latex",
+					"command": "latex-workshop.build",
+					"group": "navigation@100"
+				},
+				{
+					"when": "config.latex-workshop.showContextMenu && editorLangId == latex",
+					"command": "latex-workshop.synctex",
+					"group": "navigation@101"
+				},
+				{
+					"when": "config.latex-workshop.showContextMenu && editorLangId == latex",
+					"command": "latex-workshop.actions",
+					"group": "navigation@102"
+				}
+			],
+			"editor/title": [
+				{
+					"when": "editorLangId == latex",
+					"command": "latex-workshop.view",
+					"group": "navigation"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "latex",
+					"title": "LaTeX",
+					"icon": "./icons/activity-bar.svg"
+				}
+			]
+		},
+		"views": {
+			"latex": [
+				{
+					"id": "latex-commands",
+					"name": "Commands",
+					"when": "latex-workshop:enabled"
+				},
+				{
+					"id": "latex-structure",
+					"name": "Structure",
+					"when": "latex-workshop:enabled"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "sh minify.sh && rm -rf out/ && webpack --mode production",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"capabilities": {
+		"completionProvider": {
+			"resolveProvider": "true"
+		},
+		"hoverProvider": "true",
+		"definitionProvider": "true",
+		"documentSymbolProvider": "true",
+		"workspaceSymbolProvider": "true"
+	},
+	"dependencies": {
+		"chokidar": "^2.0.3",
+		"fs-extra": "^5.0.0",
+		"glob": "^7.1.1",
+		"iconv-lite": "^0.4.24",
+		"mathjax": "2.7.5",
+		"mathjax-node": "2.1.1",
+		"micromatch": "^3.0.0",
+		"pdfjs-dist": "^2.0.943",
+		"strip-json-comments": "^2.0.1",
+		"tmp": "^0.0.33",
+		"ws": "^5.1.1"
+	},
+	"devDependencies": {
+		"@types/chokidar": "^1.6.0",
+		"@types/fs-extra": "^5.0.0",
+		"@types/glob": "^5.0.30",
+		"@types/micromatch": "^3.0.0",
+		"@types/node": "^8.9.1",
+		"@types/tmp": "^0.0.33",
+		"@types/ws": "^4.0.2",
+		"ts-loader": "^5.2.1",
+		"tslint": "^5.0.0",
+		"typescript": "^2.0.3",
+		"vscode": "^1.1.14",
+		"webpack": "^4.20.2",
+		"webpack-cli": "^3.1.2"
+	},
+	"__metadata": {
+		"id": "61d03280-3919-4dd1-bce1-178ca21fdeaf",
+		"publisherId": "acd591bd-fa80-4809-bdbd-28c80bed19ec",
+		"publisherDisplayName": "James Yu"
+	}
+}
