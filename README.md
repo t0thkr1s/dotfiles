@@ -6,8 +6,7 @@
 ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
 ```
-
-![Imgur](https://i.imgur.com/WaftVJj.png)
+![Imgur](https://i.imgur.com/4RMfnhG.png)
 
 ## Installation
 
