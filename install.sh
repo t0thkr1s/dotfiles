@@ -143,9 +143,13 @@ install_pywal(){
 }
 
 copy_configs(){
-    cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst ~/.config
-    cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults} $HOME
-    cp -f {wallpapers/green.jpg,wallpapers/sudo.png,wallpapers/lock.jpg} ~/Pictures
+    cd .config
+    cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst Code ~/.config
+    cd ${script_dir}
+    cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults,.vscode} $HOME
+    cd wallpapers
+    cp -f {green.jpg,sudo.png,lock.jpg} ~/Pictures
+    cd ${script_dir}
     cp -fR fonts /usr/share/fonts/truetype
 }
 
