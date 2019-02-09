@@ -112,20 +112,13 @@ install_searchsploit(){
 }
 
 install_chrome(){
-    wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" -O chrome.deb
-    dpkg -i chrome.deb
-}
-
-install_atom(){
-    wget "https://atom.io/download/deb" -O atom.deb
-    dpkg -i atom.deb
-    apt install -f
+    wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" -O /tmp/chrome.deb
+    dpkg -i /tmp/chrome.deb
 }
 
 install_snaps(){
     snap install spotify
     snap install postman
-    snap install termius-app
 }
 
 install_plug(){
@@ -183,7 +176,6 @@ main(){
     install_burpsuite
     install_searchsploit
     install_chrome
-    install_atom
     install_snaps
     install_plug
     install_nerdfonts
