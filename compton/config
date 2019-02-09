@@ -1,0 +1,3 @@
+shadow = true;
+shadow-radius = 15;
+no-dock-shadow = true;
