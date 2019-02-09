@@ -148,7 +148,7 @@ copy_configs(){
     cd ${script_dir}
     cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults,.vscode} $HOME
     cd wallpapers
-    cp -f {green.jpg,sudo.png,lock.jpg} ~/Pictures
+    cp -f {green.jpg,sudo.png,lock.jpg,sunset.jpg,autumn.jpg} ~/Pictures
     cd ${script_dir}
     cp -fR fonts /usr/share/fonts/truetype
 }
