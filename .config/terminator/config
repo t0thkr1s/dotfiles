@@ -1,33 +1,27 @@
 [global_config]
-  enabled_plugins = APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
-  focus = mouse
-  handle_size = 0
-  inactive_color_offset = 1.0
+  geometry_hinting = True
   suppress_multiple_term_dialog = True
+  title_use_system_font = False
+  title_font = Fira Code 14
 [keybindings]
-  copy = <Primary>c
-  paste = <Primary>v
-[layouts]
-  [[default]]
-    [[[child1]]]
-      parent = window0
-      profile = default
-      type = Terminal
-    [[[window0]]]
-      parent = ""
-      type = Window
-[plugins]
 [profiles]
   [[default]]
-    background_color = "#27383b"
-    background_darkness = 0.9
-    cursor_blink = False
+    background_darkness = 0.95
     cursor_color = "#aaaaaa"
-    font = SF Mono 12
+    font = Fira Code 14
     foreground_color = "#ffffff"
-    icon_bell = False
-    scroll_on_output = True
-    scrollback_infinite = True
-    scrollbar_position = hidden
     show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
     use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 900, 500
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
