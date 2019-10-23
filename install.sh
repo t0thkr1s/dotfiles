@@ -12,10 +12,10 @@ update_system(){
 }
 
 install_packages(){
-    apt install -y python-pip python3-pip vlc transmission-gtk wget curl \
+    apt install -y python-pip python3-pip vlc transmission-gtk wget curl virtualbox gimp fonts-firacode \
         nikto nmap thunar firefox ranger lxappearance arp-scan netdiscover default-jdk default-jre \
-        neovim fortune lolcat snapd feh xxd dirb sqlitebrowser terminator htop wireshark lolcat \
-        toilet cowsay git apktool bleachbit tor gdb gparted openvpn adb wifite hashcat zsh trash-cli \
+        neovim feh xxd dirb sqlitebrowser terminator htop wireshark john ncat menulibre radare2 \
+        git apktool bleachbit tor gdb gparted openvpn adb wifite hashcat fish trash-cli \
         binwalk stegosuite sqlmap tmux rxvt-unicode rxvt-unicode-256color compton
 }
 
@@ -137,11 +137,11 @@ install_pywal(){
 
 copy_configs(){
     cd .config
-    cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst Code ~/.config
+    cp -fR neofetch transmission vis vlc polybar compton htop terminator i3 polybar nvim ranger rofi dunst fish Code ~/.config
     cd ${script_dir}
-    cp -f {.bashrc,.tmux.conf,.zshrc,.gitconfig,.Xdefaults,.vscode} $HOME
+    cp -f {.tmux.conf,.gitconfig,.vscode} $HOME
     cd wallpapers
-    cp -f {green.jpg,sudo.png,lock.jpg,sunset.jpg,autumn.jpg} ~/Pictures
+    cp -f {green.jpg,sudo.png,lock.jpg,sunset.jpg,fsociety.jpg,autumn.jpg} ~/Pictures
     cd ${script_dir}
     cp -fR fonts /usr/share/fonts/truetype
 }
