@@ -4,6 +4,14 @@
   title_use_system_font = False
   title_font = Fira Code 14
 [keybindings]
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
+  close_term = <Primary><Shift>q
+  close_window = None
+  move_tab_right = None
+  move_tab_left = None
+  next_tab = <Alt>Right
+  prev_tab = <Alt>Left
 [profiles]
   [[default]]
     background_darkness = 0.95
