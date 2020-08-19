@@ -58,6 +58,7 @@ brew cask install iina
 brew cask install handbrake
 brew cask install balenaetcher
 brew cask install android-studio
+brew cask install pycharm-ce
 brew cask install font-jetbrains-mono
 brew cask install openinterminal
 
