@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
 echo "Installing Homebrew..."
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 echo "Installing Brew Cask..."
+
 brew tap caskroom/cask
 
 echo "Installing Applications..."
+
 brew install git
 brew install docker
 brew install wget
@@ -28,7 +31,10 @@ brew install nmap
 brew install netcat
 brew install sqlmap
 brew install termshark
-
+brew install jadx
+brew install exiftool
+brew install hashcat
+brew install openjdk
 
 brew cask install java
 brew cask install firefox
