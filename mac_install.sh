@@ -43,6 +43,7 @@ brew cask install iterm2
 brew cask install owasp-zap
 brew cask install burp-suite
 brew cask install ghidra
+brew cask install metasploit
 brew cask install cutter
 brew cask install tunnelblick
 brew cask install transmission
